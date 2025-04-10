@@ -37,10 +37,12 @@
 ··························
 ⚫️ <Remote>
 	│
-	├── % git pull
-	├── % git fetch
 	├── % git remote -v
+	├── % git diff HEAD
+	├── % git fetch <remote>
+	├── % git pull origin main
 	├── % git clone <remote_url>
+	├── % git diff <remote/branch>
 	├── % git push <remote> <branch>
 	├── % git remote add <remote> <remote_url>
 	├── % git push <remote> <branch> main --force
