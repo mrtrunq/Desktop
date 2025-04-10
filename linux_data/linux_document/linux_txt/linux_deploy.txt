@@ -42,9 +42,12 @@ https://github.com/mrtrunq/dotfiles.git
     ├── ⚫️ <waybar> # sudo apt install sway foot swaybg waybar -y
     │
     ├── ⚫️ <pamixer> 50
-    └── ⚫️ <bluez> bluetoothctl
+    ├── ⚫️ <bluez> bluetoothctl
+    │       │
+    │       └── ⚫️ <pulseaudio-module-bluetooth> # sudo apt install pamixer bluez pulseaudio-module-bluetooth -y
+    └── ⚫️ <grim>
             │
-            └── ⚫️ <pulseaudio-module-bluetooth> # sudo apt install pamixer bluez pulseaudio-module-bluetooth -y
+            └── ⚫️ <slurp>
 ······························
 	external
     │
