@@ -233,7 +233,7 @@ input "1133:50498:Logitech_Wireless_Receiver_Mouse" {
 bindsym Control+Tab focus up
 bindsym Control+q kill
 bindsym XF86AudioPlay exec playerctl play-pause
-bindsym Shift+Print exec grim -g "$(slurp)" ~/Desktop/$(date +%F_%T).png
+bindsym Mod1+Shift+s exec grim -g "$(slurp)" ~/Desktop/$(date +%F_%T).jpg
 gaps vertical 16
 gaps horizontal 256
 exec google-chrome-stable --ozone-platform=wayland
