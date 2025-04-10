@@ -29,10 +29,10 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/opt/homebrew/Cellar/mysql@8.0/8.0.41_3/bin:$PATH"
 
 # trung suggest && highlight for terminal
-# source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-# source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 # trung alt + left, alt + right
@@ -42,4 +42,4 @@ bindkey "^[[1;3D" backward-word
 # trung alias
 alias fzflinux='cd $(find / -type d|fzf)'
 alias fzfmac='cd $(find ~ -type d|fzf)'
-alias tree='tree -L 1'
+alias ll='tree -L 1'

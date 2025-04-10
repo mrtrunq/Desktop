@@ -238,7 +238,7 @@ gaps horizontal 256
 exec google-chrome-stable --ozone-platform=wayland
 exec foot
 exec waybar
-exec swaybg -i /home/trung/dotfiles/linux_data/linux_gallery/backgrounds_jpg/road-mountains-tarmac-sunrise-morning-macos-big-sur-stock-5k-3840x2160-3996.jpg -m fit
+exec swaybg -i /home/trung/Dotfiles/linux_data/linux_gallery/backgrounds_jpg/road-mountains-tarmac-sunrise-morning-macos-big-sur-stock-5k-3840x2160-3996.jpg -m fit
 exec swaymsg layout stacking
 exec swaymsg reload
 
