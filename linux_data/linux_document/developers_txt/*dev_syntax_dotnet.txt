@@ -1,0 +1,30 @@
+🟩 [CS.NET]
+
+⚪️ [Command]
+	dotnet new console -o "template"
+	dotnet new worker -o "template"
+	dotnet build
+	dotnet run
+	dotnet publish
+	dotnet publish -o Release
+	dotnet add package Name --version
+	dotnet remove Name
+	dotnet restore
+	dotnet add Sourse reference Destination
+	dotnet pack
+	dotnet nuget push FileName --api-key --sourse https://api.nuget.org/v3/index.json
+	dotnet pack
+------------------------------
+⚪️ [Entity Framework]
+	dotnet tool list -g
+	dotnet list package
+	dotnet tool install --global -dotnet-ef
+	dotnet ef migrations add Name
+	dotnet ef migrations list
+	dotnet ef migrations remove
+	dotnet ef migrations update
+	dotnet ef database drop -f
+	dotnet ef migrations script
+	dotnet ef migrations script Name1 Name2
+	dotnet ef migrations script FileName
+	dotnet ef dbcontext scaffold -o Models -d "connectionString" "Microsoft.EntityFrameworkCore.SqlServer"

@@ -1,0 +1,150 @@
+🟩 [CSS Attributes]
+
+1_Blue
+2_Red
+3_Yellow
+4_Brown
+5_Orange
+6_Lime
+7_Grey
+8_Teal
+------------------------------
+⚫️ <Pseudo-classes>
+	│
+	├── :hover
+	├── :focus
+	├── :active
+	├── :visited
+	├── :first-child
+	├── :last-child
+	├── :nth-child(n)
+	├── :nth-of-type(n)
+	├── :not(selector)
+	├── :checked
+	├── :disabled
+	├── :enabled
+	├── :empty
+	└── :root
+··························
+⚫️ <Pseudo-elements>
+	│
+	├── ::before
+	├── ::after
+	├── ::first-letter
+	├── ::first-line
+	└── ::selection
+··························
+⚫️ <Background>
+	│
+	├── background
+	├── background-color
+	├── background-image
+	├── background-size
+	├── background-position
+	├── background-repeat
+	├── background-attachment
+	├── background-clip
+	└── opacity
+··························
+⚫️ <Text>
+	│
+	├── font-family
+	├── font-size
+	├── font-weight
+	├── font-style
+	├── letter-spacing
+	├── word-spacing
+	├── line-height
+	├── text-align
+	├── text-decoration
+	├── text-transform
+	├── text-shadow
+	├── direction
+	└── white-space
+··························
+⚫️ <Size && Space>
+	│
+	├── width
+	├── height
+	├── max-width
+	├── max-height
+	├── min-width
+	├── min-height
+	├── margin
+	└── padding
+··························
+⚫️ <Border && Shadow>
+	│
+	├── border
+	├── border-radius
+	└── box-shadow
+··························
+⚫️ <Display>
+	│
+	├── display
+	├── visibility
+	├── overflow
+	└── z-index
+··························
+⚫️ <Position>
+	│
+	├── position
+	├── top
+	├── left
+	├── right
+	└── bottom
+··························
+⚫️ <Flexbox>
+	│
+	├── display: flex
+	├── display: inline-flex
+	├── flex-direction
+	├── flex-wrap
+	├── flex-flow
+	├── justify-content
+	├── align-items
+	├── align-content
+	├── gap
+	├── row-gap
+	├── column-gap
+	│
+	├── flex
+	├── flex-grow
+	├── flex-shrink
+	├── flex-basis
+	├── align-self
+	└── order
+··························
+⚫️ <Grid>
+	│
+	├── display: grid
+	├── display: inline-grid
+	├── grid-template-columns
+	├── grid-template-rows
+	├── grid-template-areas
+	├── grid-auto-columns
+	├── grid-auto-rows
+	├── grid-auto-flow
+	├── grid-gap
+	├── grid-row-gap
+	├── grid-column-gap
+	│
+	├── grid-column
+	├── grid-row
+	├── grid-area
+	├── justify-self
+	├── align-self
+	└── place-self
+··························
+⚫️ <Animation && Transition>
+	│
+	├── animation
+	├── animation-iteration-count
+	├── transition
+	└── transition-duration
+··························
+⚫️ <Others>
+	│
+	├── cursor
+	├── clip-path
+	└── content

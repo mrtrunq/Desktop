@@ -1,0 +1,6 @@
+🟩 [Router]
+
+⚫️ <WanIP>
+    27.72.66.213
+⚫️ <Port Forwarding>
+    \\192.168.1.1\Advanced Setup\Forward Rules\Port Mapping Configuration

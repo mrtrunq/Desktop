@@ -1,0 +1,119 @@
+🟩 [Docker]
+
+⚪️ [Command]
+	docker -v
+	docker info
+	docker search <name>
+	docker diff <container_name>
+	docker stats <container_1>, <container_2>, ...
+------------------------------
+⚪️ [Images]
+	docker images
+		docker images history <image_name>
+	docker rmi <image_name>
+		docker image rm <image_name> -f
+	docker pull <image_name>:<tag_name>
+	docker run <parameter> image <command> <command_parameter>
+		example: docker run -it 6c
+		example: docker run -it --name "ABC" -h centos1 centos:latest
+		example: docker run -it --name B2 -p 8888:80 busybox
+		example: docker run -rm --name B2 -p 8888:80 busybox
+	docker commit <hash_name> <image_name>:<version_name>
+		example: docker commit U12 ubuntu-vim:version1
+	docker save --output <image_name>.tar <hash_name>
+		example: docker save --output myimage.tar a9b565f32bed
+	docker load <tar_file>
+	docker tag <hash_name> <name>:<tag>
+		example: docker exec -it 3da3306b439e /bin/bash
+	docker inspect <image_name>
+------------------------------
+⚪️ [Container]
+	docker ps
+		docker ps -a
+			Ctrl+P, Ctrl+Q
+	docker stop <container_1> <container_2>, ...
+	docker start <container_1> <container_2>, ...
+	docker restart <container_name>
+	docker attach <container_name>
+	docker rm <container_name>
+		docker rm -f <hash_name>
+	docker exec <container_name> <command>
+	docker top <container_name>
+	docker kill <container_name>
+------------------------------
+⚪️ [Volume]
+	docker volume ls
+	docker -it -v <path_host>:<path_container>
+		example: docker run -it -v .\dulieu\:/home/dulieu
+	docker -it -v <path_host>:<path_container> --name <name> <image_name>
+		example: docker run -it -v .\dulieu\:/home/dulieu --name C1 cc
+	docker run -it --name <container_name> --volumes-from <container_name> <image_name>
+		example: docker run -it --name C2 --volumes-from C1 ubuntu:latest
+	docker create volume <volume_name>
+	docker volume inspect <disk_name>
+	docker run -it --name <container_name> --mount source=<disk_name>,target=<path_container> <image_name>
+		docker run -it --name C1 --mount source=D2,target=/home/disk2 ubuntu:latest
+------------------------------
+⚪️ [Network]
+	docker network ls
+	docker network inspect <driver_name>
+	docker inspect <image_name>
+		docker inspect <container_name>
+	docker network create --driver <driver_name> <network_name>
+		example: docker network create --driver bridge network1
+	docker run -it --name <container_name> --network <network_name> <image_name>
+		docker run -it --name B3 --network mynetwork busybox
+	docker network connect <driver_name> <container_name>
+------------------------------
+⚪️ [Docker-Compose]
+	docker-compose up
+		docker-compose up -d
+	docker-compose down
+	docker-compose ps
+		docker-compose ps --services
+	docker-compose stop
+	docker-compose start
+	docker-compose images
+	docker-compose exec <container_name> bash
+		docker-compose exec <container_name> ls
+	docker-compose logs
+		docker-compose logs <container_1> <container_2>
+------------------------------
+⚪️ [Docker-Machine]
+	docker-machine ls
+		docker-machine ip <machine_name>
+	docker-machine create -driver virtualbox/hyperv <machine_name>
+	docker-machine stop <machine1, machine2, ...>
+	docker-machine start <machine1, machine2, ...>
+	docker-machine rm <machine_name>
+	docker-machine ssh <machine_name>
+	docker-machine scp -r <host_path> <machine_name>:<machine_path>
+		docker-machine scp -r data/ vps1:/home/
+------------------------------
+⚪️ [Repositories]
+
+	step1 = docker tag <image_name> mrtrunq/myimage-repo:<tag_name>
+	step2 = docker login
+	step3 = docker push mrtrunq/myimage-repo:<tag_name>
+------------------------------
+⚪️ [Dockerfile]
+	docker build -t <image_name>:<tag_name> -f Dockerfile .
+	docker build -t <image_name>:<tag_name> .
+	docker build -t="mynewdemo" .
+	command
+		FROM
+		MAINTAINER
+		RUN
+		CMD
+		ENV
+		WORKDIR
+------------------------------
+⚪️ [Logs]
+	docker logs <container_name>
+	docker logs --tail 10 <container_name>
+	docker logs -f <container_name>
+------------------------------
+⚪️ [haproxy]
+	/etc/haproxy/haproxy.cfg
+	Edit Hosts
+		vi C:\Windows\System32\drivers\etc\hosts

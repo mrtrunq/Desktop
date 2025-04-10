@@ -1,0 +1,43 @@
+🟩 [Design Pattern]
+
+Behavioral Patterns
+	Strategy Design Pattern
+	Observer Design Pattern
+	Command Design Pattern
+······························
+Creational Patterns
+	Singleton Design Pattern
+		-> logging, config, caching
+	Builder Design Pattern
+	Abstract Factory Design Pattern
+		Factory Method
+······························
+Structural Patterns
+	Decorator Design Pattern
+	Adapter Design Pattern
+	Facade Design Pattern
+······························
+Archutectueal Patterns
+	Repository
+······························
+Generic Host
+	Worker Template
+	Logging
+	Attribute
+······························
+ConfiguarationBuilder
+······························
+Dependency Injection
+	Invert of Control (Dependency inversion)
+	Injection = constructor
+Caching
+	Cache-Aside
+······························
+Design Pattern Popular
+	Singleton
+	Adapter
+	Proxy
+	Observer
+	Factory
+	Composite
+	Prototype

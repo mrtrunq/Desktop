@@ -1,0 +1,33 @@
+🟩 [Web Structure]
+
+⚪️ [Project Structure]
+
+------------------------------
+⚪️ [HTML Layout]
+⚫️ <Tags>
+    │
+	├── <header>
+	├── <section>
+	│		│
+	│		├── <nav>
+	│		├── <main> || <article>
+	│		└── <aside>
+    │
+    └── <footer>
+······························
+⚫️ <Layout>
+    │
+	├── ⚫️ <Header>
+	├── ⚫️ <Navigation Menu>
+	├── ⚫️ <Content> | ⚫️ <Main Content> | ⚫️ <Content>
+    └── ⚫️ <Footer>
+------------------------------
+⚪️ [JavaScript HTML DOM Document]
+⚫️ <Category>
+    │
+	├── Adding Events Handlers
+	├── Adding and Deleting Elements
+	├── Changing HTML Elements
+	├── Changing HTML Style
+	├── Finding HTML Elements
+    └── Finding HTML Objects

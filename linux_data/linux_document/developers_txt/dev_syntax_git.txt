@@ -1,0 +1,57 @@
+🟩 [Version Control System]
+
+⚫️ <.gitignore>
+    │
+    └── .DS_Store
+··························
+⚫️ <Basic>
+	│
+	├── % git add .
+	├── % git init
+	└── % rm -rf .git
+··························
+⚫️ <Config>
+	│
+	├── % git config -l
+	├── % git config user.name "<name>"
+	├── % git config user.email "<email>"
+	├── % git config --global user.name "<name>"
+	├── % git config --global user.email "<email>"
+	└── % git config http.postBuffer 524288000 (fix error 400 with macOS)
+··························
+⚫️ <Commit>
+	│
+	├── % git commit -m "<message>"
+	├── % git commit --amend --no-edit
+	└── % git commit --amend -m "<message>"
+··························
+⚫️ <Branch>
+    │
+	├── % git branch
+	├── % git reflog
+	├── % git merge <branch>
+	├── % git branch <new_branch>
+	├── % git log --oneline --graph
+	├── % git checkout <commit_hash>
+    └── % git checkout -b <new_branch>
+··························
+⚫️ <Remote>
+	│
+	├── % git pull
+	├── % git fetch
+	├── % git remote -v
+	├── % git clone <remote_url>
+	├── % git push <remote> <branch>
+	├── % git remote add <remote> <remote_url>
+	├── % git push <remote> <branch> main --force
+	├── % git remote rename <old_remote> <new_remote>
+	└── % git remote set-url <remote> <new_remote_url>
+··························
+⚫️ <Undo>
+    │
+	├── % git reset <commit_hash>
+    └── % git revert head --no-edit
+··························
+⚫️ <Advanced>
+	│
+	└── % ssh-keygen -t rsa

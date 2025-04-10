@@ -1,0 +1,161 @@
+🟩 [Data Structure && Algorithm]
+
+⚪️ [Data Structure]
+	Arrays
+		subArray
+		insertArray
+		matrix
+			sum_submation
+			multiplication
+			transposition
+			diagonal
+			triangle_matrix
+			determinant
+			sparse_matrix
+	Linked List
+		Singly Linked List
+		Doubly Linked List
+		Cycle Linked List
+	Stacks
+		LIFO
+	Queue
+		FIFO
+	Hash Table
+		Keyword
+			keys
+			key range
+			hash function
+			hash value
+			buckets
+			collision
+		Method
+			search
+			insert
+			delete
+		Implement
+			Hash Set
+			Hash Map(Dictionary)
+	Tree
+		Basic
+			Node
+			Root
+			Leaf
+			Child
+			Parent
+			Ancestors
+			Descendants
+			Sibling
+			Internal Node
+			Hight
+			Depth
+		Method
+			Insert()
+			Search()
+			Pre-order Traversal()
+				Node -> left -> right
+			In-order Traversal()
+				left -> Node -> right
+			Post-order Traversal()
+				left -> right -> Node
+		Types
+			N-ary Tree
+			Ternary Tree
+			Binary Tree
+				Số node ở h = 2ʰ (suy biến)
+				Sum node ở h = 2ʰ+¹ - 1 (hoàn hỉnh)
+				gần hoàn chỉnh
+			Binary Search Tree(BST)
+				AVL Tree
+				SPLAY Tree
+				Spanning Tree
+					Algorithm: Kruskal
+					Algorithm: Prim
+			Trie / Prefix Tree
+	             Heaps(binary tree + condition)
+		Max Heap
+			parentNode >= childNode
+		Min Heap
+			parentNode <= childNode
+		Max Heapify
+		Build Max Heap
+		Heap Sort
+		Max Heap Insert
+		Heap Extract Max
+		Heap Increase Key
+		Heap Maximum
+	Graph
+		Depth First Search(DFS)
+		Breadth First Search(BFS)
+		Method 1
+			create
+			destroy
+			get number of edges
+			get number of vertices
+			isdirected
+			in an edge
+			remove an edge
+		Method 2
+			incidentEdges
+			arcAdjacent
+			insertVertex
+			insertEdge
+			removeVertex
+			removeEdge
+------------------------------
+⚪️ [Algorithm]
+	Recursion
+		Before Recursion
+		After Recursion
+		Memoization (đệ quy có nhớ)
+		Not Return Result
+		Return Result
+	Sort
+		T = O(n²), M = O(1)
+			bubbleSort()
+			insertionSort()
+			slectionSort()
+			naturalSort()
+			naturalSort()
+			shellSort(Best)
+		O(n log n)
+			mergeSort(M = O(n))
+				Divide
+				Sort
+				Merge
+			quickSort(M = O(log n))
+		Type
+			Internal Sort
+			External Sort
+		Math
+			Swap
+			Compare
+	Search
+		linearSearch(O(n))
+			sentinel (lính canh)
+		jumpSearch(O(√n))
+		binarySearch(O(log n))
+			binarySearchRecursion(O(log n))
+		Interpolation Search(O log (log n))
+	Brute Force (O(n²))
+	Backtracking
+	Dynamic Programming
+------------------------------
+⚪️ [Big O]
+	Space Complexity
+		memory
+	Time Complexity
+	Asymptotic Notation
+		Const
+			O(1)
+		Logarit
+			O(log n)
+		Linear
+			O(n)
+		Quadratic
+			Ο(n²)
+		Cubic
+			Ο(n³)
+		Polynomial(đa thức)
+			nᴼ(¹)
+		Exponential(số mũ)
+			2ᴼ(ⁿ)

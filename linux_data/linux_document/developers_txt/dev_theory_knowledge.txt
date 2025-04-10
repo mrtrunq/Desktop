@@ -1,0 +1,63 @@
+🟩 [Knowledge System]
+
++------------------------------+
+|     Study from 19/03/2024    |
++------------------------------+
+⚪️ [Website]
+    │
+    ├── ⚫️ <Frontend>
+    │		│
+    │   	├── .Photoshop, .Illustrator, .Figma
+    │   	└── HTML-BEM, CSS-SCSS, Javascript
+    │
+    ├── ⚫️ <Backend>
+    │		│
+    │   	├── C#, C++, Java, PHP
+    │   	└── SOLID, Design Pattern
+    │
+    ├── ⚫️ <Database>
+    │		│
+    │   	├── SQL Server
+    │   	└── MySQL
+    │
+    ├── ⚫️ <API>
+    │
+    ├── ⚫️ <Authentication>
+    │
+	└── ⚫️ <Deployment>
+    		│
+        	├── ⚫️ <CI && CD>
+    		│		│
+    		│		├── Git && Github
+    		│		├── Unit Test
+    		│   	└── .Jenkins
+    		│
+        	├── ⚫️ <Server>
+    		│		│
+    		│		├── Docker
+    		│   	└── Linux
+    		│
+        	├── ⚫️ <Web Server>
+    		│		│
+    		│   	└── .Apache
+    		│
+        	└── ⚫️ <Networking>
+					│
+					├── HTTP Protocol
+					└── SSH Protocol
+------------------------------
+⚪️ [Learned]
+	│
+	├── Dotnet
+	├── WinForms
+	├── Security
+	├── SQL Server
+	├── Operation System
+	├── Network Programming
+	├── Discrete Mathematics
+	├── Computer Architecture
+	├── Statistical Probability
+	├── Responsive && Grid System
+	├── Software Design Analysis
+	├── Data Structure, Algorithm
+	└── Oriented Object Programming

@@ -1,0 +1,56 @@
+🟩 [Server System]
+
+⚪️ [Networking]
+	NTFS Permissions & Data Sharing
+	DNS Server
+	Mail Server
+		MDaemon
+	Web Server
+	NAT Server
+	DHCP Server
+	Active Directory Domain Service (ADDC)
+		Active Directory Users And Computers
+	Additional Domain Controller (ADC)
+	Socks
+------------------------------
+⚪️ [CentOS]
+	CentOS-7
+		run = VirtualBox
+	Network
+		VirtualBox = Bridged Apdapter
+		Host key verification: C:\Users\PC\.ssh\known_hosts
+------------------------------
+⚪️ [SSH]
+	Command
+		fingerprint: \Users\PC\.ssh\known_hosts
+		ssh root@192.168.1.99
+			ssh root@192.168.1.99 -p 22
+			ssh root@192.168.1.99 "<cmd>"
+		ssh -vvv root@192.168.1.99 -p 22
+		scp -r <localhost_folder> root@192.168.1.99:<destination_folder>
+	SSH key
+		ssh-keygen -t rsa
+	Log
+		ssh -v root@192.168.1.99
+	SFTP
+		ls
+			lls
+		cd
+			lcd
+		df <path>
+		pwd
+			lpwd
+		mkdir
+		rm -r <path>
+		get -r <server_folder | file>
+		put -r <localhost_folder/file>
+	SSHFS
+		FUSE
+		WinFSP
+	RSync
+		rsync -av <localhost_folder> root@192.168.1.99:<destination_folder>
+		rsync -av --delete <localhost_folder> root@192.168.1.99:<destination_folder>
+	Port Forwarding
+		Windows =  Internet Options
+	Fake IP
+		Windows =  Internet Options

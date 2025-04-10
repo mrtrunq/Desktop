@@ -1,0 +1,95 @@
+🟩 [Visual Studio Code]
+
+⚪️ [Backup && Restore for Extension]
+    % code --list-extensions > vscode-extensions.txt                  (Export in DIR)
+    % cat vscode-extensions.txt | xargs -n 1 code --install-extension (Import in DIR)
+------------------------------
+⚪️ [JSON Config]
++·············································+
+|   Preferences: Open User Settings (JSON)    |
+| Preferences: Open Keyboard Shortcuts (JSON) |
++---------------------------------------------+
+⚪️ [.NET]
+    .NET: Generate Assets for Build and Debug > .vscode
+    {} launch.json -> "console": "integratedTerminal"
+------------------------------
+⚪️ [Extensions(36)]
+	Base(9)
+    │
+    ├── ⚫️ <Vim>
+    ├── ⚫️ <Lua>
+    ├── 🔴 <Cline>
+    ├── 🔴 <Continue>
+    ├── ⚫️ <Error Lens>
+    ├── ⚫️ <Code Runner>
+    ├── ⚫️ <Custom UI Style>
+    └── ⚫️ <IntelliCode>
+    		│
+    		└── ⚫️ <IntelliCode API Usage Examples>
+······························
+	CPP(2)
+    │
+    ├── ⚫️ <C/C++>
+    └── 🔴 <Competitive Programming Helper (cph)>
+······························
+	Java(7)
+    │
+    └── ⚫️ <Extension Pack for Java>
+    		│
+    		├── ⚫️ <Maven for Java>
+    		├── ⚫️ <Gradle for Java>
+    		├── ⚫️ <Debugger for Java>
+    		├── ⚫️ <Test Runner for Java>
+    		├── ⚫️ <Project Manager for Java>
+    		└── ⚫️ <Language Support for Java(TM) by Red Hat>
+······························
+	CSharp(4)
+    │
+    ├── ⚫️ <C#>
+    │		│
+    │		└── ⚫️ <.NET Install Tool>
+	│
+    └── ⚫️ <C# Dev Kit>
+    		│
+    		└── ⚫️ <IntelliCode for C# Dev Kit>
+······························
+	HTML,CSS,Javascript(12)
+    │
+    ├── ⚫️ <Prettier>
+    ├── ⚫️ <Live Server>
+    ├── ⚫️ <VS HTML to CSS>
+    ├── ⚫️ <HTML to CSS autocompletion>
+    ├── ⚫️ <IntelliSense for CSS class names in HTML>
+    │
+    ├── HTML
+    │	│
+    │	├── ⚫️ <HTMLHint>
+    │	├── ⚫️ <htmltagwrap>
+    │	├── ⚫️ <Auto Rename Tag>
+    │	└── ⚫️ <Highlight Matching Tag>
+    │
+    ├── CSS
+    │	│
+    │	├── ⚫️ <CSS Peek>
+    │	└── ⚫️ <Live Sass Compiler>
+    │
+    └── Javascript
+    	│
+    	└── ⚫️ <ESlint>
+······························
+	PHP(2)
+    │
+    ├── ⚫️ <PHP Debug>
+    └── ⚫️ <PHP Intelephense>
+------------------------------
+⚪️ [Keyboard]
+    (Assign)Toggle Fold                  = Ctrl+K Ctrl+K
+    (Assign)Fold All                     = Ctrl+K Ctrl+O
+    (Assign)Unfold All                   = Ctrl+K Ctrl+P
+    (Assign)Fold Level 1                 = Ctrl+K Ctrl+1
+    (Assign)Fold Level 2                 = Ctrl+K Ctrl+2
+    (Assign)Fold Level 3                 = Ctrl+K Ctrl+3
+    (Assign)Fold Level 4                 = Ctrl+K Ctrl+4
+    (Assign)Fold Level 5                 = Ctrl+K Ctrl+5
+    (Assign)Fold Level 6                 = Ctrl+K Ctrl+6
+    (Assign)Fold Level 7                 = Ctrl+K Ctrl+7

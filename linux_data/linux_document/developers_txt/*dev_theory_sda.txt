@@ -1,0 +1,74 @@
+🟩 [Software Design Analysis]
+
+Waterfall Model
+	Analysis
+	Design
+	Code
+	Test
+Prototype Model
+Spiral Model
+------------------------------
+⚪️ [UML]
+	Structure Diagrams
+		Class Diagram
+		Object Diagram
+		Package Diagram
+		Component Diagram
+		Composite Structure Diagram
+		Deployment Diagram
+	Behavior Diagrams
+		Use Case Diagram
+		Activity Diagram
+		State Machine Diagram
+	Interaction Diagrams
+		Timing Diagram
+		Sequence Diagram
+		Communication Diagram
+		Interaction Overview Diagram
+------------------------------
+⚪️ [Use Case Diagram]
+	Actor
+	Use Case
+	<<Include>>
+	<<Extend>>
+------------------------------
+⚪️ [ER Diagram Analysts Strategy]
+	Top Down
+	Bottom Up
+	Inside Out
+	Combination
+------------------------------
+⚪️ [Client / Server Architecture]
+	Thin Client
+	Fat Client
+	Combonation
+------------------------------
+⚪️ [Activity Diagram]
+	Initial
+	Activity
+	Transition
+	Decision
+		Merge
+		Branch
+	Synchronization Bar
+		Fork
+		Join
+	Final Node
+------------------------------
+⚪️ [ER Diagram Analysts Strategy]
+	Top Down
+	Bottom Up
+	Inside Out
+	Combination
+------------------------------
+⚪️ [Three-tier Architeture]
+	Presentation Layer (GUI)
+	Business Logic Layer (BLL & DTO)
+	Data Access Layer (DAL)
+	Database
+------------------------------
+⚪️ [ER Diagram]
+	Actor
+	Use Case
+	<<Include>>
+	<<Extend>>

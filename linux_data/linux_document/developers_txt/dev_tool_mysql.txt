@@ -1,0 +1,37 @@
+🟩 [MySQL 8.0.41]
+
+mycli		// brew query
+mysql		// query
+mysqldump	// backup
+mysqladmin  // manager
+mysqlimport // csv
+------------------------------
+⚪️ [Tools]
+⚫️ <Active>
+	% mysql -u root -p
+	% mycli -u root -p 1111
+	% mysql.server start
+	% mysql.server stop
+	% mysql.server restart
+	% mysql.server status
+······························
+⚫️ <Users>
+    │
+    └── root : 1111
+	% mysqladmin -u root password 1111
+······························
+⚫️ <Default Databases>
+    │
+    ├── information_schema
+    ├── mysql
+    ├── performance_schema
+    └── sys
+······························
+⚫️ <Horizontal>
+	% pager less -S == ✅
+	% pager         == ❌
+······························
+⚫️ <Delimiter>
+	delimiter // == ✅
+	-> //        == end
+	delimiter ;  == ❌
