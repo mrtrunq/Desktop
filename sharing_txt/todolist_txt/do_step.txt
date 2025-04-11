@@ -1,0 +1,79 @@
+🟩 [Step By Step]
+
+⚪️ [To Do List]
+	va not keo vao tuong
+	price list > search gr fb > make photos list > up photo group > make video up ytb
+------------------------------
+⚪️ [Step]
+⚫️ <Base>
+    The Windy > Duolingo > Phone charge > Check VPS | DoDaily
+······························
+⚫️ <Schedule>
+    Focus    : Photoshop > Illustrator > Figma > Apache > Jenkins
+	Learn    : C > C++ > DSA
+------------------------------
+⚪️ [Time]
+    │
+    ├── (21) lh  5   : 2025-04-21 08:40 PM
+    ├── (4)  ĐD Bang : 2005-05-02 11:45 AM
+    └── VPS          : 2025-05-02 11:45 AM
+------------------------------
+⚪️ [Disk]
+⚫️ <Lexar NM610 250GB>
+    │
+    ├── Terabytes Written : 125TBW
+    └── Total Host Writes : 13369GB (06:34 PM 23/12/2024)
+······························
+⚫️ <KIOXIA-EXCERIA 480GB>
+    │
+    ├── Terabytes Written : 120TBW
+    └── Total Host Writes : 490GB   (04:05 PM 12/12/2024)
+······························
+⚫️ <KIOXIA-XG8 512GB>
+    │
+    ├── Terabytes Written : 300TBW
+    └── Total Host Writes : 738GB   (04:05 PM 12/12/2024)
+······························
+🔴 Loss     : 1724k
+
+------------------------------------------------------------------------------------------
+
+🟩 [Road Map]
+
+Lập trình Fullstack với Backend là ASP.NET Core và Frontend là React.js
+······························
+Backend (ASP.NET Core)
+
+1. ASP.NET Core: Một framework mã nguồn mở, đa nền tảng để xây dựng các ứng dụng web, API, và dịch vụ. Tích hợp các tính năng như Dependency Injection, Middleware, và các công cụ giúp phát triển hiệu quả.
+2. Entity Framework Core: ORM (Object-Relational Mapper) cho phép tương tác với cơ sở dữ liệu bằng các đối tượng C# thay vì viết câu lệnh SQL.
+3. Web API: Một phần của ASP.NET Core để xây dựng các dịch vụ web và API RESTful.
+4. Middleware: Các thành phần xử lý các yêu cầu HTTP trước khi chúng đến Controller. Ví dụ: xử lý lỗi, xác thực, và nén dữ liệu.
+5. Dependency Injection: Một kỹ thuật thiết kế phần mềm để quản lý các phụ thuộc giữa các đối tượng. ASP.NET Core tích hợp sẵn để dễ dàng cấu hình và sử dụng.
+6. Authentication and Authorization: Các phương pháp xác thực người dùng và phân quyền truy cập. ASP.NET Core hỗ trợ các phương pháp như JWT (JSON Web Token), OAuth, và OpenID Connect.
+7. Configuration: Quản lý cấu hình ứng dụng qua các tệp cấu hình như appsettings.json và biến môi trường.
+8. Logging: Hệ thống ghi nhật ký và theo dõi ứng dụng để xử lý lỗi và phân tích hiệu suất.
+9. Unit Testing: Viết các bài kiểm tra đơn vị cho các lớp và phương thức trong ứng dụng để đảm bảo tính chính xác và hiệu suất.
+10. CI/CD: Tích hợp liên tục và triển khai liên tục để tự động hóa quy trình xây dựng, kiểm tra và triển khai ứng dụng.
+······························
+Frontend (React.js)
+
+1. React: Thư viện JavaScript để xây dựng giao diện người dùng. Sử dụng component-based architecture để xây dựng các thành phần giao diện có thể tái sử dụng.
+2. JSX: Cú pháp mở rộng cho JavaScript cho phép viết các cấu trúc HTML trong mã JavaScript.
+3. State Management: Quản lý trạng thái ứng dụng. Các thư viện phổ biến bao gồm Redux, Context API, và Recoil.
+4. React Router: Thư viện để quản lý điều hướng và các tuyến đường trong ứng dụng React.
+5. Hooks: Các hàm được cung cấp bởi React để quản lý trạng thái và các side effects mà không cần phải viết class components. Ví dụ: useState, useEffect.
+6. Component Lifecycle: Các giai đoạn mà một component trải qua từ khi được khởi tạo đến khi bị gỡ bỏ. Các phương thức vòng đời (lifecycle methods) giúp bạn xử lý các hành động trong từng giai đoạn.
+7. Styling: Các phương pháp để thêm kiểu dáng cho ứng dụng, bao gồm CSS, CSS-in-JS (ví dụ: styled-components), và các thư viện UI như Material-UI, Ant Design.
+8. RESTful API: Giao tiếp với backend thông qua các yêu cầu HTTP. Thường sử dụng thư viện như Axios hoặc Fetch API để thực hiện các yêu cầu và nhận dữ liệu từ server.
+9. Build Tools: Các công cụ để đóng gói và xây dựng ứng dụng như Webpack, Babel, và npm/yarn để quản lý các gói thư viện.
+10. Testing: Viết các bài kiểm tra cho ứng dụng frontend. Các công cụ phổ biến bao gồm Jest, React Testing Library.
+······························
+Công nghệ hỗ trợ
+
+1. Docker: Công cụ để đóng gói ứng dụng và các phụ thuộc vào container để dễ triển khai và vận hành trên nhiều môi trường khác nhau.
+2. Kubernetes: Hệ thống quản lý container để tự động triển khai, mở rộng, và quản lý ứng dụng container.
+3. Git: Hệ thống kiểm soát phiên bản để quản lý mã nguồn và hợp tác giữa các nhà phát triển.
+4. API Documentation: Tạo tài liệu cho API để dễ dàng sử dụng và tích hợp, ví dụ: Swagger hoặc OpenAPI.
+5. Monitoring & Performance Tools: Công cụ theo dõi và phân tích hiệu suất ứng dụng như Prometheus, Grafana, và New Relic.
+······························
+Nắm vững các khái niệm và công nghệ này sẽ giúp bạn phát triển ứng dụng Fullstack hiệu quả và dễ bảo trì hơn.
