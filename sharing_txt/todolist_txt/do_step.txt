@@ -1,6 +1,9 @@
 🟩 [Step By Step]
 
 ⚪️ [To Do List]
+	structure folder win
+	remote ssh
+	access disk exFAT - Data HD
 	va not keo vao tuong
 	price list > search gr fb > make photos list > up photo group > make video up ytb
 ------------------------------
