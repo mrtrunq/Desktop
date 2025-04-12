@@ -8,15 +8,18 @@
 ⚪️ [Shell]
 ⚫️ <TTY> Teletypewriter
     │
-    └── font = TerminusBold            : 12x24
+    └── font        == TerminusBold     : 12x24
 ······························
-⚫️ <foot>
-	foot.ini
+⚫️ <st>
     │
-    └── font = JetBrainsMono NF        : 12
+    └── *font       == JetBrainsMono NF : 12
+------------------------------
+⚪️ [Appearance]
+⚫️ <dwm_bar>
+    │
+    └── *fonts[]    == JetBrainsMono NF : 12
 ······························
-⚫️ <waybar>
-	style.css
+⚫️ <dmenu>
     │
-    └── font-family = JetBrainsMono NF : 16
+    └── dmenufont[] == JetBrainsMono NF : 12
 
