@@ -1,1 +1,2 @@
 startx
+eval "$(/opt/homebrew/bin/brew shellenv)"
