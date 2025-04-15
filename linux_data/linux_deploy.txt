@@ -58,15 +58,16 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <slstatus> $ git clone https://git.suckless.org/slstatus
     ├── ⚫️ <feh>
     ├── ⚫️ <scrot>
-    └── ⚫️ <picom>
-        #  sudo apt feh scrot picom -y
+    ├── ⚫️ <picom>
+    └── ⚫️ <xdotool>
+        #  sudo apt feh scrot picom xdotool -y
     Patches : suckless.org
     │
-    ├── ⚫️ <st-dracula-0.8.5.diff>
     ├── ⚫️ <dmenu-alpha-20230110-5.2.diff>
-    ├── ⚫️ <st-alpha-20240814-a0274bc.diff>
     ├── ⚫️ <dwm-alpha-20230401-348f655.diff>
     ├── ⚫️ <dwm-vanitygaps-20200610-f09418b.diff>
+    ├── ⚫️ <st-dracula-0.8.5.diff>
+    ├── ⚫️ <st-alpha-20240814-a0274bc.diff>
     └── ⚫️ <st-scrollback-0.9.2.diff> ⚫️ <st-scrollback-mouse-0.9.2.diff>
 ------------------------------
 ⚪️ [Apps Settings]

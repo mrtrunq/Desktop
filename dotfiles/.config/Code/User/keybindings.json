@@ -2,17 +2,17 @@
 [
     // basic
     {
-        "key": "shift+cmd+d",
+        "key": "shift+ctrl+d",
         "command": "editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
     },
     {
-        "key": "cmd+d",
+        "key": "ctrl+d",
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
     },
     {
-        "key": "cmd+d",
+        "key": "ctrl+d",
         "command": "editor.action.duplicateSelection"
     },
     {
@@ -21,46 +21,46 @@
     },
     // fold
     {
-        "key": "cmd+k cmd+k",
+        "key": "ctrl+k ctrl+k",
         "command": "editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "cmd+k cmd+o",
+        "key": "ctrl+k ctrl+o",
         "command": "editor.foldAll",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "cmd+k cmd+l",
+        "key": "ctrl+k ctrl+l",
         "command": "-editor.toggleFold",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "cmd+k cmd+p",
+        "key": "ctrl+k ctrl+p",
         "command": "editor.unfoldAll",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "alt+cmd+[",
+        "key": "alt+ctrl+[",
         "command": "workbench.action.navigateBack",
         "when": "canNavigateBack"
     },
     {
-        "key": "alt+cmd+]",
+        "key": "alt+ctrl+]",
         "command": "workbench.action.navigateForward",
         "when": "canNavigateForward"
     },
     {
-        "key": "shift+cmd+l",
+        "key": "shift+ctrl+l",
         "command": "-continue.focusContinueInputWithoutClear"
     },
     // terminal
     {
-        "key": "cmd+j",
+        "key": "ctrl+j",
         "command": "-workbench.action.togglePanel"
     },
     {
-        "key": "cmd+j",
+        "key": "ctrl+j",
         "command": "workbench.action.toggleMaximizedPanel"
     }
 ]

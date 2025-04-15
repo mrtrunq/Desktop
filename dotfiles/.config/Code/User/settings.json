@@ -19,6 +19,7 @@
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
     "editor.foldingStrategy": "auto",
+    "editor.selectionHighlight": false,
     "editor.autoClosingQuotes": "never",
     "editor.renderLineHighlight": "all",
     "editor.occurrencesHighlight": "off",
@@ -99,5 +100,6 @@
         "opacity": 0.98
     },
     "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "git.openRepositoryInParentFolders": "never",
 }
