@@ -1,0 +1,103 @@
+{
+    // editor
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono NF",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "icon": "terminal-cmd",
+            "args": "/k"
+        }
+    },
+    "editor.tabSize": 4,
+    "editor.rulers": [80],
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.5,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.foldingStrategy": "auto",
+    "editor.autoClosingQuotes": "never",
+    "editor.renderLineHighlight": "all",
+    "editor.occurrencesHighlight": "off",
+    "editor.autoClosingBrackets": "never",
+    "editor.foldingImportsByDefault": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
+    // workbench
+    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": false,
+    "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+    "workbench.colorCustomizations": {
+        "menu.background": "#343746",
+        "editor.background": "#282A36",
+        "sideBar.background": "#21222C",
+        "activityBar.background": "#343746",
+        "tab.inactiveBackground": "#21222C",
+        "editorCursor.foreground": "#F8F8F2",
+        "titleBar.activeBackground": "#21222C",
+        "editor.lineHighlightBorder": "#44475A",
+        "editor.selectionBackground": "#255077",
+        "editor.lineHighlightBackground": "#44475A",
+        "editorGroupHeader.tabsBackground": "#191A21"
+    },
+    // vim
+    "vim.leader": " ",
+    "vim.digraphs": {},
+    "vim.useCtrlKeys": false,
+    "vim.vimrc.enable": true,
+    // formatter
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 800,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 80 }",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "[lua]": {
+        "editor.defaultFormatter": "yinfei.luahelper"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    // php
+    "php.suggest.basic": false,
+    "php.validate.enable": true,
+    "intelephense.format.braces": "k&r",
+    "php.validate.executablePath": "/opt/homebrew/Cellar/php/8.4.5_1/bin/php",
+    // etc
+    "files.exclude": {
+        "**/.git": false
+    },
+    "breadcrumbs.enabled": false,
+    "window.commandCenter": false,
+    "redhat.telemetry.enabled": false,
+    "code-runner.runInTerminal": true,
+    "editor.stickyScroll.enabled": false,
+    "liveServer.settings.NoBrowser": true,
+    "vs-html-to-css.append": " {\n\n}\n\n",
+    "git.blame.statusBarItem.enabled": false,
+    "security.workspace.trust.enabled": false,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "git.blame.editorDecoration.enabled": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "extensions.autoCheckUpdates": false,
+    "custom-ui-style.electron": {
+        "frame": false,
+        "transparent": true,
+        "opacity": 0.98
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false
+}

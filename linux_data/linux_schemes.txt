@@ -1,0 +1,12 @@
+🟩 [Linux Schemes]
+
+⚪️ [Install Fonts]
+    │
+    ├── # cp <source_font> /usr/share/fonts/truetype
+    └── # sudo fc-cache -fv
+------------------------------
+⚪️ [Shell]
+⚫️ <TTY> Teletypewriter
+    │
+    └── font        == TerminusBold     : 10x20
+

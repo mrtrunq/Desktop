@@ -1,0 +1,73 @@
+🟩 [Dynamic Window Manager]
+
+⚪️ [dwm]
+⚫️ <config.h>
+│
+│   static const unsigned int borderpx  = 2;
+│
+├── ⚫️ <dwm-vanitygaps>
+│   static const unsigned int gappiv    = 16;
+│   static const unsigned int gappoh    = 16;
+│   static const unsigned int gappov    = 256;
+│
+│   static const char *fonts[]          = { "JetbrainsMono NF:size=11" };
+│
+└── ⚫️ <dwm-alpha>
+    static const unsigned int baralpha  = 0x80;
+
+    [SchemeNorm] = { "#ffffff", "#000000", col_gray2 },
+    [SchemeSel]  = { col_cyan,  "#000000", col_cyan  },
+
+    static const char *tags[] = { " ", " ", " " };
+
+    #define MODKEY Mod4Mask
+
+    /* static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL }; */
+    static const char *dmenucmd[] = { "dmenu_run", NULL };
+
+    { ControlMask,                  XK_space,  spawn,          {.v = dmenucmd } },
+    { ControlMask,                  XK_Tab,    view,           {0} },
+    { ControlMask,                  XK_q,      killclient,     {0} },
+······························
+⚫️ <dwm.c>
+    /* if (occ & 1 << i)
+        drw_rect(drw, x + boxs, boxs, boxw, boxw,
+            m == selmon && selmon->sel && selmon->sel->tags & 1 << i,
+            urg & 1 << i); */
+
+    /* drw_setscheme(drw, scheme[m == selmon ? SchemeSel : SchemeNorm]); */
+------------------------------
+⚪️ [st]
+⚫️ <config.h>
+│
+│   static char *font = "JetbrainsMono NF:pixelsize=15:antialias=true:autohint=true";
+│   static int borderpx = 16;
+│
+├── ⚫️ <st-alpha>
+│   float alpha = 0.9;
+│
+└── ⚫️ <st-alpha>
+    { ShiftMask,            Button4, kscrollup,      {.i = 4} },
+    { ShiftMask,            Button5, kscrolldown,    {.i = 4} },
+------------------------------
+⚪️ [dmenu]
+⚫️ <config.h>
+│
+└── ⚫️ <dmenu-alpha>
+    static const unsigned int alpha = 0x80;
+
+    "JetbrainsMono NF:size=11"
+
+    [SchemeNorm] = { "#ffffff", "#000000" },
+    [SchemeSel] = { "#ffffff", "#005577" },
+    [SchemeOut] = { "#000000", "#00ffff" },
+
+    static unsigned int lines      = 4;
+------------------------------
+⚪️ [slstatus]
+⚫️ <config.h>
+    { cpu_perc, "  %s%% | ",   NULL },
+    { ram_perc, "  %s%% | ",   NULL },
+    { temp,     " %s°C | ",    "/sys/class/thermal/thermal_zone0/temp" },
+    { datetime, "  %s",        "%a %I:%M %p " },
+

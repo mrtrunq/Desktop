@@ -1,0 +1,115 @@
+🟩 [Ubuntu Server Configurations]
+
+https://github.com/mrtrunq/Dotfiles.git
+------------------------------
+⚪️ [Command]
+⚫️ <TTY Change Font>
+    # sudo dpkg-reconfigure console-setup
+    UTF-8 > Vietnamese > Select
+    # sudo vi /etc/default/console-setup
+······························
+⚫️ <Time zone>
+    # sudo timedatectl set-timezone Asia/Ho_Chi_Minh && timedatectl
+······························
+⚫️ <Power>
+    $ systemctl suspend
+    $ systemctl reboot --firmware-reboot
+------------------------------
+⚪️ [Apps]
+
++····························+
+|          $ which           |
+|          /bin              |
+|          /usr/bin          |
++····························+
+	Core
+    │
+    ├── ⚫️ <stow>
+    ├── ⚫️ <zsh> $ chsh -s /bin/zsh
+    ├── ⚫️ <zsh-autosuggestions>
+    ├── ⚫️ <zsh-syntax-highlighting> # sudo apt install stow zsh zsh-autosuggestions zsh-syntax-highlighting -y
+    │   #  sudo apt install stow zsh zsh-autosuggestions zsh-syntax-highlighting -y
+    │
+    ├── ⚫️ <fzf>
+    ├── ⚫️ <tree>
+    ├── ⚫️ <tldr>
+    ├── ⚫️ <neofetch>
+    ├── ⚫️ <google-chrome-stable> $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    │   #  sudo apt install fzf tree tldr neofetch -y
+    │
+    ├── ⚫️ <imwheel>
+    ├── ⚫️ <bluez> ⚫️ <pulseaudio-module-bluetooth>
+    ├── ⚫️ <pamixer> 50
+    └── ⚫️ <exfat-fuse> ⚫️ <exfatprogs>
+        #  sudo apt install imwheel bluez pulseaudio-module-bluetooth pamixer exfat-fuse exfatprogs -y
+······························
+    DE_XORG : suckless.org
+    │
+    ├── ⚫️ <xorg>
+    ├── ⚫️ <libx11-dev>
+    ├── ⚫️ <libxft-dev>
+    ├── ⚫️ <libxinerama-dev>
+    ├── ⚫️ <build-enssential>
+    │   #  sudo apt install xorg libx11-dev libxft-dev libxinerama-dev build-enssential -y
+    │
+    ├── ⚫️ <dwm>      $ git clone https://git.suckless.org/dwm
+    ├── ⚫️ <dmenu>    $ git clone https://git.suckless.org/dmenu
+    ├── ⚫️ <st>       $ git clone https://git.suckless.org/st
+    ├── ⚫️ <slstatus> $ git clone https://git.suckless.org/slstatus
+    ├── ⚫️ <feh>
+    ├── ⚫️ <scrot>
+    └── ⚫️ <picom>
+        #  sudo apt feh scrot picom -y
+    Patches : suckless.org
+    │
+    ├── ⚫️ <st-dracula-0.8.5.diff>
+    ├── ⚫️ <dmenu-alpha-20230110-5.2.diff>
+    ├── ⚫️ <st-alpha-20240814-a0274bc.diff>
+    ├── ⚫️ <dwm-alpha-20230401-348f655.diff>
+    ├── ⚫️ <dwm-vanitygaps-20200610-f09418b.diff>
+    └── ⚫️ <st-scrollback-0.9.2.diff> ⚫️ <st-scrollback-mouse-0.9.2.diff>
+------------------------------
+⚪️ [Apps Settings]
+
++····························+
+|   $ chmod +x ~/.xinitrc    |
++····························+
+⚫️ <exfat-fuse>
+    $ sudo mkdir -p /mnt/exfat
+    $ lsblk
+    $ sudo mount -t exfat </dev/sda5> /mnt/exfat
+    $ sudo blkid </dev/sda5>
+    $ sudo nano /etc/fstab
+        UUID=xxxx-xxxx  /mnt/exfat  exfat  defaults  0  0
+······························
+⚫️ <bluez>
+	$ bluetoothctl
+	$ power on > $ agen on > $ scan on
+	$ devices
+	$ info <MAC>
+	$ pair > $ trust > $ connect
+······························
+⚫️ <pamixer>
+	$ pamixer --get-volume
+	$ pamixer --set-volume 30
+······························
+⚫️ <scrot>
+    $ scrot ~/Downloads/screenshot-$(date +%Y%m%d-%H%M%S).jpg
+    $ scrot -s ~/Downloads/screenshot-$(date +%Y%m%d-%H%M%S).png
+
+------------------------------------------------------------------------------------------
+
+🟩 [Arch Linux - TTY]
+
+⚫️ <Font Size>
+	$ setfont ter-132n
+······························
+⚫️ <Format Disk>
+	$ lsblk
+	$ fdisk -l
+	$ cfdisk
+······························
+⚫️ <Main>
+	$ pacman -S archlinux-keyring
+	$ pacman -S archinstall
+    
