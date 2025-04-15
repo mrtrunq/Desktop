@@ -8,5 +8,5 @@
 ⚪️ [Shell]
 ⚫️ <TTY> Teletypewriter
     │
-    └── font        == TerminusBold     : 10x20
+    └── font == Terminus : 10x20
 

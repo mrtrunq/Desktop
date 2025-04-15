@@ -1,0 +1,5 @@
+alt + shift + s
+    scrot -s ~/Downloads/screenshot-$(date +%Y%m%d-%H%M%S).jpg &
+alt + 4
+    systemctl suspend
+

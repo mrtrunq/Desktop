@@ -2,21 +2,25 @@
 
 ⚪️ [dwm]
 ⚫️ <config.h>
-│
-│   static const unsigned int borderpx  = 2;
-│
-├── ⚫️ <dwm-vanitygaps>
-│   static const unsigned int gappiv    = 16;
-│   static const unsigned int gappoh    = 16;
-│   static const unsigned int gappov    = 256;
-│
-│   static const char *fonts[]          = { "JetbrainsMono NF:size=11" };
-│
-└── ⚫️ <dwm-alpha>
+    static const unsigned int borderpx  = 2;
+   
+    ⚫️ <dwm-vanitygaps>
+    static const unsigned int gappiv    = 16;
+    static const unsigned int gappoh    = 16;
+    static const unsigned int gappov    = 256;
+   
+    ⚫️ <NVIDIA Driver>
+    ⚫️ <fonts-noto-color-emoji>
+    static const char *fonts[] = {
+        "JetbrainsMono NF:size=13",
+        "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true"
+    };
+   
+    ⚫️ <dwm-alpha>
     static const unsigned int baralpha  = 0x80;
 
     [SchemeNorm] = { "#ffffff", "#000000", col_gray2 },
-    [SchemeSel]  = { col_cyan,  "#000000", col_cyan  },
+    [SchemeSel]  = { col_cyan,  "#000000", col_cyan  }
 
     static const char *tags[] = { " ", " ", " " };
 
@@ -39,21 +43,21 @@
 ------------------------------
 ⚪️ [st]
 ⚫️ <config.h>
-│
-│   static char *font = "JetbrainsMono NF:pixelsize=15:antialias=true:autohint=true";
-│   static int borderpx = 16;
-│
-├── ⚫️ <st-alpha>
-│   float alpha = 0.9;
-│
-└── ⚫️ <st-alpha>
+   
+    static char *font = "JetbrainsMono NF:pixelsize=15:antialias=true:autohint=true";
+    static int borderpx = 16;
+   
+    ⚫️ <st-alpha>
+    float alpha = 0.9;
+   
+    ⚫️ <scrollback>
     { ShiftMask,            Button4, kscrollup,      {.i = 4} },
     { ShiftMask,            Button5, kscrolldown,    {.i = 4} },
 ------------------------------
 ⚪️ [dmenu]
 ⚫️ <config.h>
-│
-└── ⚫️ <dmenu-alpha>
+
+    ⚫️ <dmenu-alpha>
     static const unsigned int alpha = 0x80;
 
     "JetbrainsMono NF:size=11"
@@ -69,5 +73,6 @@
     { cpu_perc, "  %s%% | ",   NULL },
     { ram_perc, "  %s%% | ",   NULL },
     { temp,     " %s°C | ",    "/sys/class/thermal/thermal_zone0/temp" },
+    { disk_used, "  %s | ",    "/" },
     { datetime, "  %s",        "%a %I:%M %p " },
 

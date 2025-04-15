@@ -11,7 +11,16 @@ https://github.com/mrtrunq/Dotfiles.git
 ⚫️ <Time zone>
     # sudo timedatectl set-timezone Asia/Ho_Chi_Minh && timedatectl
 ······························
-⚫️ <Power>
+⚫️ <NVIDIA Driver>
+    # sudo add-apt-repository ppa:graphics-drivers/ppa -y
+    # sudo apt update
+    $ ubuntu-drivers devices
+    # sudo apt install <nvidia-driver-version>
+    $ reboot
+    $ nvidia-smi
+······························
+⚫️ <Etc>
+    $ sed -i 's/\r$//' <file> | CRLF -> LF
     $ systemctl suspend
     $ systemctl reboot --firmware-reboot
 ------------------------------
@@ -33,6 +42,7 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <fzf>
     ├── ⚫️ <tree>
     ├── ⚫️ <tldr>
+    ├── ⚫️ <vscode>
     ├── ⚫️ <neofetch>
     ├── ⚫️ <google-chrome-stable> $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
     │   #  sudo apt install fzf tree tldr neofetch -y
@@ -59,8 +69,11 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <feh>
     ├── ⚫️ <scrot>
     ├── ⚫️ <picom>
+    ├── ⚫️ <xshkd>
     └── ⚫️ <xdotool>
-        #  sudo apt feh scrot picom xdotool -y
+    └── ⚫️ <fonts-noto-color-emoji>
+        #  sudo apt feh scrot picom sxhkd xdotool -y
+        
     Patches : suckless.org
     │
     ├── ⚫️ <dmenu-alpha-20230110-5.2.diff>
@@ -96,7 +109,7 @@ https://github.com/mrtrunq/Dotfiles.git
 ······························
 ⚫️ <scrot>
     $ scrot ~/Downloads/screenshot-$(date +%Y%m%d-%H%M%S).jpg
-    $ scrot -s ~/Downloads/screenshot-$(date +%Y%m%d-%H%M%S).png
+    $ scrot -s ~/Downloads/screenshot-$(date +%Y%m%d-%H%M%S).jpg
 
 ------------------------------------------------------------------------------------------
 

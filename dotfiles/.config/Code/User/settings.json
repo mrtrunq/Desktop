@@ -29,12 +29,14 @@
     "editor.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
     // workbench
     "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Default Dark+",
     "workbench.layoutControl.enabled": false,
     "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
     "workbench.colorCustomizations": {
         "menu.background": "#343746",
         "editor.background": "#282A36",
         "sideBar.background": "#21222C",
+        // "statusBar.background": "#191A21",
         "activityBar.background": "#343746",
         "tab.inactiveBackground": "#21222C",
         "editorCursor.foreground": "#F8F8F2",

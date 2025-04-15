@@ -1,10 +1,7 @@
 🟩 [Step By Step]
 
 ⚪️ [To Do List]
-    unikey
-    play/pause
 	remote ssh
-    install nvidia driver | nouveau 0000:01:00.0 bus: MMIO read of 000000000 fault at 122124 [privring]
 
 	va not keo vao tuong
 	price list > search gr fb > make photos list > up photo group > make video up ytb

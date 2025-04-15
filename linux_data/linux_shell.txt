@@ -19,7 +19,7 @@
 
 ⚪️ [Packages]
     │
-    └── ⚫️<ollama> $ curl -fsSL https://ollama.com/install.sh | sh
+    └── ⚫️ <ollama> $ curl -fsSL https://ollama.com/install.sh | sh
 ······························
 ⚪️ [Packages Configuration]
 ⚫️ <Ollama>

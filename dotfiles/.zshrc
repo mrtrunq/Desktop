@@ -17,7 +17,7 @@ autoload -Uz vcs_info
 precmd() { vcs_info }
 setopt PROMPT_SUBST
 zstyle ':vcs_info:git:*' formats ' %b '
-PROMPT='%F{green}%n@%m %F{yellow}%1~ %F{magenta}${vcs_info_msg_0_}%F{reset}# '
+PROMPT='%F{green}%n@%m %F{yellow}%1~ %F{magenta}${vcs_info_msg_0_}%F{reset}%% '
 
 # trung node version manager
 export NVM_DIR="$HOME/.nvm"
