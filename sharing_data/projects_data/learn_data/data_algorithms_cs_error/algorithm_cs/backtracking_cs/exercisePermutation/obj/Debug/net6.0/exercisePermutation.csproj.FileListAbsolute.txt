@@ -1,0 +1,70 @@
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\bin\Debug\net6.0\exercisePermutation.exe
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\bin\Debug\net6.0\exercisePermutation.deps.json
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\bin\Debug\net6.0\exercisePermutation.runtimeconfig.json
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\bin\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\bin\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\obj\Debug\net6.0\exercisePermutation.GeneratedMSBuildEditorConfig.editorconfig
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfoInputs.cache
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfo.cs
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\obj\Debug\net6.0\exercisePermutation.csproj.CoreCompileInputs.cache
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\obj\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\obj\Debug\net6.0\refint\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\obj\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\obj\Debug\net6.0\exercisePermutation.genruntimeconfig.cache
+C:\myCentralVirus\cenStudy\stdPractice\titvList\exercisePermutation\obj\Debug\net6.0\ref\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.exe
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.deps.json
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.runtimeconfig.json
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.GeneratedMSBuildEditorConfig.editorconfig
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfoInputs.cache
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfo.cs
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.csproj.CoreCompileInputs.cache
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\obj\Debug\net6.0\refint\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.genruntimeconfig.cache
+C:\myCentralVirus\cenStudy\stdPractice\titvList\.exercisePermutation\obj\Debug\net6.0\ref\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.exe
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.deps.json
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.runtimeconfig.json
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\bin\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.GeneratedMSBuildEditorConfig.editorconfig
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfoInputs.cache
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfo.cs
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.csproj.CoreCompileInputs.cache
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\obj\Debug\net6.0\refint\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\obj\Debug\net6.0\exercisePermutation.genruntimeconfig.cache
+C:\myCentralVirus\cenStudy\stdPractice\C# Console\titvList\.exercisePermutation\obj\Debug\net6.0\ref\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\bin\Debug\net6.0\exercisePermutation.exe
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\bin\Debug\net6.0\exercisePermutation.deps.json
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\bin\Debug\net6.0\exercisePermutation.runtimeconfig.json
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\bin\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\bin\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\obj\Debug\net6.0\exercisePermutation.GeneratedMSBuildEditorConfig.editorconfig
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfoInputs.cache
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfo.cs
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\obj\Debug\net6.0\exercisePermutation.csproj.CoreCompileInputs.cache
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\obj\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\obj\Debug\net6.0\refint\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\obj\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\obj\Debug\net6.0\exercisePermutation.genruntimeconfig.cache
+C:\myCentralVirus\cenStudy\stdTraining\C# Console\tutTITV\Recursion\exercisePermutation\obj\Debug\net6.0\ref\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\bin\Debug\net6.0\exercisePermutation.exe
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\bin\Debug\net6.0\exercisePermutation.deps.json
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\bin\Debug\net6.0\exercisePermutation.runtimeconfig.json
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\bin\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\bin\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\obj\Debug\net6.0\exercisePermutation.GeneratedMSBuildEditorConfig.editorconfig
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfoInputs.cache
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\obj\Debug\net6.0\exercisePermutation.AssemblyInfo.cs
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\obj\Debug\net6.0\exercisePermutation.csproj.CoreCompileInputs.cache
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\obj\Debug\net6.0\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\obj\Debug\net6.0\refint\exercisePermutation.dll
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\obj\Debug\net6.0\exercisePermutation.pdb
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\obj\Debug\net6.0\exercisePermutation.genruntimeconfig.cache
+C:\myCentralVirus\cenStudy\stdScience\Algorithm\Backtracking\exercisePermutation\obj\Debug\net6.0\ref\exercisePermutation.dll

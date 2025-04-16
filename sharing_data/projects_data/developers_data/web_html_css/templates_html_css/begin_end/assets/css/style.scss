@@ -1,0 +1,79 @@
+@import "./component/base";
+@import "./component/reset";
+
+.app {
+    display: grid;
+    gap: 1.6rem;
+    grid-template-areas:
+        "header header header header"
+        "menu content content aside"
+        "footer footer footer footer";
+
+    .header {
+        grid-area: header;
+        background-color: $one;
+
+        &__title {
+            color: $w;
+            text-align: center;
+            font-size: 4rem;
+            padding: 0.4rem;
+        }
+    }
+
+    .menu {
+        font-size: 1.6rem;
+        color: $w;
+        grid-area: menu;
+
+        &__list {
+            margin: 0;
+            padding: 0;
+        }
+        &__item {
+            padding: 0.8rem 3.2rem;
+            margin-bottom: 0.8rem;
+            background-color: $five;
+            cursor: pointer;
+        }
+        &__link {
+            text-decoration: none;
+            color: $w;
+        }
+    }
+
+    .content {
+        grid-area: content;
+
+        &__article {
+            color: $b;
+            font-size: 1.6rem;
+        }
+    }
+
+    .aside {
+        grid-area: aside;
+        border: 1px solid $one;
+        padding: 0 1.6rem;
+
+        &__title {
+            font-size: 2rem;
+        }
+        &__list {
+            font-size: 1.6rem;
+        }
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: $four;
+
+        &__title {
+            color: $w;
+            text-align: center;
+            font-size: 2.4rem;
+        }
+    }
+}
+
+@import "./component/responsive";

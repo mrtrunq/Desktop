@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyCentralVirus\\Study\\Science\\exerciseAlgorithm\\BranchAndBound\\exerciseKnapsack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9C8CA7E-5C61-48CB-B64D-F055F57F08D7}|exerciseKnapsack\\exerciseKnapsack.csproj|d:\\mycentralvirus\\study\\science\\exercisealgorithm\\branchandbound\\exerciseknapsack\\exerciseknapsack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C8CA7E-5C61-48CB-B64D-F055F57F08D7}|exerciseKnapsack\\exerciseKnapsack.csproj|solutionrelative:exerciseknapsack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyCentralVirus\\Study\\Science\\exerciseAlgorithm\\BranchAndBound\\exerciseKnapsack\\exerciseKnapsack\\Program.cs",
+              "RelativeDocumentMoniker": "exerciseKnapsack\\Program.cs",
+              "ToolTip": "D:\\MyCentralVirus\\Study\\Science\\exerciseAlgorithm\\BranchAndBound\\exerciseKnapsack\\exerciseKnapsack\\Program.cs",
+              "RelativeToolTip": "exerciseKnapsack\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:17:00.553Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

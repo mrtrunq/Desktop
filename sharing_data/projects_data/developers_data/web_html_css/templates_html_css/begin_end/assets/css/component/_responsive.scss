@@ -1,0 +1,38 @@
+// Desktop
+@media (min-width: 1025px) {
+    .app {
+        display: grid;
+        gap: 1.6rem;
+        grid-template-areas:
+            "header header header header"
+            "menu content content aside"
+            "footer footer footer footer";
+    }
+}
+
+// Tablet
+@media (min-width: 768px) and (max-width: 1024px) {
+    .app {
+        display: grid;
+        gap: 1.6rem;
+        grid-template-areas:
+            "header header"
+            "menu content"
+            "aside aside"
+            "footer footer";
+    }
+}
+
+// Mobile
+@media (max-width: 767px) {
+    .app {
+        display: grid;
+        gap: 1.6rem;
+        grid-template-areas:
+            "header"
+            "menu"
+            "content"
+            "aside"
+            "footer";
+    }
+}

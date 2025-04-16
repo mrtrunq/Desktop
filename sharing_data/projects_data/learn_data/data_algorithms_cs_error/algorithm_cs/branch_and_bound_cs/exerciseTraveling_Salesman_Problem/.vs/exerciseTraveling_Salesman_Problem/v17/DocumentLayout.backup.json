@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyRepos\\Research\\DataAlgorithms\\Algorithm\\.BranchAndBound\\.exerciseTraveling_Salesman_Problem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD5F027-54F2-4F90-AB02-857A8DB6B4AA}|exerciseTraveling_Salesman_Problem\\exerciseTraveling_Salesman_Problem.csproj|d:\\myrepos\\research\\dataalgorithms\\algorithm\\.branchandbound\\.exercisetraveling_salesman_problem\\exercisetraveling_salesman_problem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD5F027-54F2-4F90-AB02-857A8DB6B4AA}|exerciseTraveling_Salesman_Problem\\exerciseTraveling_Salesman_Problem.csproj|solutionrelative:exercisetraveling_salesman_problem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 504,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyRepos\\Research\\DataAlgorithms\\Algorithm\\.BranchAndBound\\.exerciseTraveling_Salesman_Problem\\exerciseTraveling_Salesman_Problem\\Program.cs",
+              "RelativeDocumentMoniker": "exerciseTraveling_Salesman_Problem\\Program.cs",
+              "ToolTip": "D:\\MyRepos\\Research\\DataAlgorithms\\Algorithm\\.BranchAndBound\\.exerciseTraveling_Salesman_Problem\\exerciseTraveling_Salesman_Problem\\Program.cs",
+              "RelativeToolTip": "exerciseTraveling_Salesman_Problem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T10:03:42.582Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
