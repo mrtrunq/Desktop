@@ -20,7 +20,7 @@ https://github.com/mrtrunq/Dotfiles.git
     $ nvidia-smi
 ······························
 ⚫️ <Etc>
-    $ sed -i 's/\r$//' <file> | CRLF -> LF
+    $ sed -i 's/\r$//' <file_name> | CRLF -> LF
     $ systemctl suspend
     $ systemctl reboot --firmware-reboot
 ------------------------------
@@ -48,19 +48,19 @@ https://github.com/mrtrunq/Dotfiles.git
     │   #  sudo apt install fzf tree tldr neofetch -y
     │
     ├── ⚫️ <imwheel>
-    ├── ⚫️ <bluez> ⚫️ <pulseaudio-module-bluetooth>
     ├── ⚫️ <pamixer> 50
-    └── ⚫️ <exfat-fuse> ⚫️ <exfatprogs>
-        #  sudo apt install imwheel bluez pulseaudio-module-bluetooth pamixer exfat-fuse exfatprogs -y
+    ├── ⚫️ <exfat-fuse> ⚫️ <exfatprogs>
+    └── ⚫️ <bluez> ⚫️ <pulseaudio-module-bluetooth>
+        #  sudo apt install imwheel pamixer exfat-fuse exfatprogs bluez pulseaudio-module-bluetooth -y
 ······························
     DE_XORG : suckless.org
     │
-    ├── ⚫️ <xorg>
     ├── ⚫️ <libx11-dev>
     ├── ⚫️ <libxft-dev>
     ├── ⚫️ <libxinerama-dev>
     ├── ⚫️ <build-enssential>
-    │   #  sudo apt install xorg libx11-dev libxft-dev libxinerama-dev build-enssential -y
+    ├── ⚫️ <xorg> ⚫️ <xserver-xorg>
+    │   #  sudo apt install libx11-dev libxft-dev libxinerama-dev build-enssential xorg xserver-xorg -y
     │
     ├── ⚫️ <dwm>      $ git clone https://git.suckless.org/dwm
     ├── ⚫️ <dmenu>    $ git clone https://git.suckless.org/dmenu

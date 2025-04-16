@@ -1,5 +1,12 @@
-alt + shift + s
-    scrot -s ~/Downloads/screenshot-$(date +%Y%m%d-%H%M%S).jpg &
-alt + 4
+alt+4
     systemctl suspend
+
+alt+shift+s
+    scrot -s ~/Downloads/screenshot-$(date +%Y%m%d-%H%M%S).jpg &
+
+XF86AudioRaiseVolume
+    pamixer --increase 5
+
+XF86AudioLowerVolume
+    pamixer --decrease 5
 

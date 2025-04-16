@@ -1,7 +1,7 @@
 🟩 [Step By Step]
 
 ⚪️ [To Do List]
-	remote ssh
+	svn-hemi-head win->mac
 
 	va not keo vao tuong
 	price list > search gr fb > make photos list > up photo group > make video up ytb

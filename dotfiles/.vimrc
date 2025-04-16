@@ -1,13 +1,13 @@
-set number                   " line number
-set incsearch                " find highlight
-set ignorecase               " find * upper & lower
-set tabstop=4                " read tab
-set shiftwidth=4             " shift >> tab
-set expandtab                " write tab
-set clipboard=unnamedplus    " copy many times
+set number
+set incsearch
+set expandtab
+set tabstop=4
+set ignorecase
+set autoindent
+set shiftwidth=4
 
-let mapleader = ' '          " <leader> to <space>
-:let g:loaded_matchparen = 1 " hide highlight for bracket
+let mapleader = ' '
+:let g:loaded_matchparen = 1
 
 nnoremap j gjzz
 nnoremap k gkzz

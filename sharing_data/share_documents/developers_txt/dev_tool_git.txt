@@ -52,7 +52,8 @@
 ⚫️ <Undo>
     │
 	├── % git reset <commit_hash>
-    └── % git revert head --no-edit
+    ├── % git revert head --no-edit
+    └── % git checkout -- <file_name>
 ··························
 ⚫️ <Advanced>
 	│
