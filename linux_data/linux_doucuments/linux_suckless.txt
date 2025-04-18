@@ -22,7 +22,7 @@
     [SchemeNorm] = { "#ffffff", "#000000", col_gray2 },
     [SchemeSel]  = { col_cyan,  "#000000", col_cyan  }
 
-    static const char *tags[] = { " ", " ", " " };
+	static const char *tags[] = { "  ", " " };
 
     #define MODKEY Mod4Mask
 
@@ -44,7 +44,7 @@
 ⚪️ [st]
 ⚫️ <config.h>
    
-    static char *font = "JetbrainsMono NF:pixelsize=15:antialias=true:autohint=true";
+    static char *font = "JetbrainsMono NF:pixelsize=14:antialias=true:autohint=true";
     static int borderpx = 16;
    
     ⚫️ <st-alpha>
@@ -73,7 +73,7 @@
     { run_command, "  %s%% | ", "pamixer --get-volume" },
     { cpu_perc, "  %s%% | ",   NULL },
     { temp,     " %s°C | ",    "/sys/class/thermal/thermal_zone0/temp" },
-    { ram_used, "  %s | ",     NULL },
-    { disk_used, "  %s | ",    "/" },
+    { ram_perc, "  %s% | ",    NULL },
+    { disk_perc, "  %s% | ",   "/" },
     { datetime, "  %s",        "%a %I:%M %p " },
 

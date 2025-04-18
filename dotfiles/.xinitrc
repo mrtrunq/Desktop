@@ -7,9 +7,7 @@ sxhkd &
 slstatus &
 
 google-chrome &
-sleep 0.5 && st &
-code &
-sleep 1.0 && xdotool key super+Shift+2 &
-sleep 1.2 && xdotool key super+Shift+3 &
+sleep 0.3 && st &
+sleep 0.5 && xdotool key super+Shift+2 &
 
 exec dwm
