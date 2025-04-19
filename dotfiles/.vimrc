@@ -1,10 +1,12 @@
 " options
-	set termguicolors
-	colorscheme onedark
+	" set termguicolors
+	" colorscheme dark_plus
 	highlight Normal ctermbg=NONE guibg=NONE
 	highlight NormalNC ctermbg=NONE guibg=NONE
 	highlight EndOfBuffer ctermbg=NONE guibg=NONE
 	highlight LineNr ctermbg=NONE guibg=NONE
+	highlight CursorLine ctermbg=NONE guibg=NONE
+	highlight CursorLineNr ctermbg=NONE guibg=NONE
 	set number
 	set mouse=a
 	set tabstop=4
@@ -12,7 +14,7 @@
 	set ignorecase
 	set nohlsearch
 	set noshowmode
-	set cursorline
+	" set cursorline
 	set smartindent
 	set shiftwidth=4
 	let mapleader=' '

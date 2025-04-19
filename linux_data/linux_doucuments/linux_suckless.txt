@@ -2,8 +2,6 @@
 
 ⚪️ [dwm]
 ⚫️ <config.h>
-    static const unsigned int borderpx  = 2;
-   
     ⚫️ <dwm-vanitygaps>
     static const unsigned int gappiv    = 16;
     static const unsigned int gappoh    = 16;
@@ -28,6 +26,7 @@
 
     /* static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL }; */
     static const char *dmenucmd[] = { "dmenu_run", NULL };
+	static const char *termcmd[]  = { "alacritty", NULL };
 
     { ControlMask,                  XK_space,  spawn,          {.v = dmenucmd } },
     { ControlMask,                  XK_Tab,    view,           {0} },
@@ -40,19 +39,6 @@
             urg & 1 << i); */
 
     /* drw_setscheme(drw, scheme[m == selmon ? SchemeSel : SchemeNorm]); */
-------------------------------
-⚪️ [st]
-⚫️ <config.h>
-   
-    static char *font = "JetbrainsMono NF:pixelsize=14:antialias=true:autohint=true";
-    static int borderpx = 16;
-   
-    ⚫️ <st-alpha>
-    float alpha = 0.9;
-   
-    ⚫️ <scrollback>
-    { ShiftMask,            Button4, kscrollup,      {.i = 4} },
-    { ShiftMask,            Button5, kscrolldown,    {.i = 4} },
 ------------------------------
 ⚪️ [dmenu]
 ⚫️ <config.h>
@@ -70,10 +56,10 @@
 ------------------------------
 ⚪️ [slstatus]
 ⚫️ <config.h>
-    { run_command, "  %s%% | ", "pamixer --get-volume" },
-    { cpu_perc, "  %s%% | ",   NULL },
-    { temp,     " %s°C | ",    "/sys/class/thermal/thermal_zone0/temp" },
-    { ram_perc, "  %s% | ",    NULL },
-    { disk_perc, "  %s% | ",   "/" },
-    { datetime, "  %s",        "%a %I:%M %p " },
+	{ run_command, "  %s%% | ", "pamixer --get-volume" },
+	{ cpu_perc, "  %s%%  ",    NULL },
+	{ temp,     " %s°C | ",    "/sys/class/thermal/thermal_zone0/temp" },
+	{ ram_used, "  %s | ",     NULL },
+	{ disk_used, "  %s | ",    "/" },
+	{ datetime, "  %s",        "%a %I:%M %p " },
 

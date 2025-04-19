@@ -42,10 +42,10 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <fzf>
     ├── ⚫️ <tree>
     ├── ⚫️ <tldr>
-    ├── ⚫️ <vscode>
     ├── ⚫️ <neofetch>
+    ├── ⚫️ <alacritty>
     ├── ⚫️ <google-chrome-stable> $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-    │   #  sudo apt install fzf tree tldr neofetch -y
+    │   #  sudo apt install fzf tree tldr neofetch alacritty -y
     │
     ├── ⚫️ <imwheel>
     ├── ⚫️ <pamixer> 50
@@ -78,9 +78,7 @@ https://github.com/mrtrunq/Dotfiles.git
     │
     ├── ⚫️ <dmenu-alpha-20230110-5.2.diff>
     ├── ⚫️ <dwm-alpha-20230401-348f655.diff>
-    ├── ⚫️ <dwm-cfacts-vanitygaps-6.4_combo.diff>
-    ├── ⚫️ <st-alpha-20240814-a0274bc.diff>
-    └── ⚫️ <st-scrollback-0.9.2.diff> ⚫️ <st-scrollback-mouse-0.9.2.diff>
+    └── ⚫️ <dwm-cfacts-vanitygaps-6.4_combo.diff>
 ------------------------------
 ⚪️ [Apps Settings]
 
