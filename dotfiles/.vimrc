@@ -1,6 +1,7 @@
 " options
+	syntax on
 	" set termguicolors
-	" colorscheme dark_plus
+	" colorscheme dracula
 	highlight Normal ctermbg=NONE guibg=NONE
 	highlight NormalNC ctermbg=NONE guibg=NONE
 	highlight EndOfBuffer ctermbg=NONE guibg=NONE
@@ -13,6 +14,7 @@
 	set incsearch
 	set ignorecase
 	set nohlsearch
+	set clipboard=unnamed
 	set noshowmode
 	" set cursorline
 	set smartindent
