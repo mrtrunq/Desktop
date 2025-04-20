@@ -1,7 +1,6 @@
-" options
+" vim_options
 syntax on
 set number
-" set mouse=a
 set tabstop=4
 set incsearch
 set ignorecase
@@ -15,20 +14,21 @@ set clipboard=unnamed
 let g:loaded_matchparen=1
 let $TERM="xterm-256color"
 
+" set mouse=a
 " set cursorline
 " set termguicolors
-" colorscheme dracula
+" colorscheme tokyonight
 " ------------------------------
-" autocmds
-highlight Normal ctermbg=NONE guibg=NONE
-highlight NormalNC ctermbg=NONE guibg=NONE
-highlight EndOfBuffer ctermbg=NONE guibg=NONE
+" vim_autocmds
+" highlight Normal ctermbg=NONE guibg=NONE
+" highlight NormalNC ctermbg=NONE guibg=NONE
+" highlight EndOfBuffer ctermbg=NONE guibg=NONE
 
-highlight LineNr ctermbg=NONE guibg=NONE
-highlight CursorLine ctermbg=NONE guibg=NONE
-highlight CursorLineNr ctermbg=NONE guibg=NONE
+" highlight LineNr ctermbg=NONE guibg=NONE
+" highlight CursorLine ctermbg=NONE guibg=NONE
+" highlight CursorLineNr ctermbg=NONE guibg=NONE
 " ------------------------------
-" keymaps
+" vim_keymaps
 nnoremap j gjzz
 vnoremap j gjzz
 nnoremap k gkzz

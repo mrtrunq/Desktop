@@ -26,7 +26,7 @@
 
     /* static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL }; */
     static const char *dmenucmd[] = { "dmenu_run", NULL };
-	static const char *termcmd[]  = { "st", NULL };
+	static const char *termcmd[]  = { "alacritty", NULL };
 
     { ControlMask,                  XK_space,  spawn,          {.v = dmenucmd } },
     { ControlMask,                  XK_Tab,    view,           {0} },
@@ -53,19 +53,6 @@
     [SchemeOut] = { "#000000", "#00ffff" },
 
     static unsigned int lines      = 4;
-------------------------------
-⚪️ [st]
-⚫️ <config.h>
-
-	static char *font = "JetbrainsMono NF:pixelsize=14:antialias=true:autohint=true";
-    static int borderpx = 16;
-	
-    ⚫️ <st-alpha>
-	float alpha = 0.98;
-
-    ⚫️ <st-scrollback>
-    { ShiftMask,            Button4, kscrollup,      {.i = 4} },
-    { ShiftMask,            Button5, kscrolldown,    {.i = 4} },
 ------------------------------
 ⚪️ [slstatus]
 ⚫️ <config.h>
