@@ -4,7 +4,7 @@ general.import = ["~/.config/alacritty/dracula.toml"]
 	TERM = "xterm-256color"
 
 [window]
-	opacity = 0.95
+	opacity = 0.98
 	padding.x = 16
 	padding.y = 16
 	decorations = "Buttonless"
