@@ -4,12 +4,12 @@ general.import = ["~/.config/alacritty/dracula.toml"]
 	TERM = "xterm-256color"
 
 [window]
+	opacity = 0.95
 	padding.x = 16
 	padding.y = 16
-	opacity = 0.98
 	decorations = "Buttonless"
 	position = { x = 492, y = 40 }
-	dimensions = { columns = 130, lines = 58 }
+	dimensions = { columns = 112, lines = 51 }
 
 [font]
 	normal.family = "JetbrainsMono NF"
