@@ -1,28 +1,32 @@
 " options
 syntax on
-" set termguicolors
-" colorscheme dracula
-highlight Normal ctermbg=NONE guibg=NONE
-highlight NormalNC ctermbg=NONE guibg=NONE
-highlight EndOfBuffer ctermbg=NONE guibg=NONE
-highlight LineNr ctermbg=NONE guibg=NONE
-highlight CursorLine ctermbg=NONE guibg=NONE
-highlight CursorLineNr ctermbg=NONE guibg=NONE
 set number
 set mouse=a
 set tabstop=4
 set incsearch
 set ignorecase
 set nohlsearch
-set clipboard=unnamed
 set noshowmode
-" set cursorline
 set smartindent
 set shiftwidth=4
 let mapleader=' '
 set encoding=utf-8
+set clipboard=unnamed
+let g:loaded_matchparen=1
 let $TERM="xterm-256color"
-:let g:loaded_matchparen=1
+
+" set cursorline
+" set termguicolors
+" colorscheme dracula
+" ------------------------------
+" autocmds
+highlight Normal ctermbg=NONE guibg=NONE
+highlight NormalNC ctermbg=NONE guibg=NONE
+highlight EndOfBuffer ctermbg=NONE guibg=NONE
+
+highlight LineNr ctermbg=NONE guibg=NONE
+highlight CursorLine ctermbg=NONE guibg=NONE
+highlight CursorLineNr ctermbg=NONE guibg=NONE
 " ------------------------------
 " keymaps
 nnoremap j gjzz
@@ -49,7 +53,6 @@ nnoremap N Nzz
 " ······························
 nnoremap <C-d> yyp
 inoremap <C-d> <Esc>yyp
-vnoremap <C-d> <Esc>yyp
 
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>
