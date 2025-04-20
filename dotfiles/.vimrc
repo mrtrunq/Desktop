@@ -1,7 +1,7 @@
 " options
 syntax on
 set number
-set mouse=a
+" set mouse=a
 set tabstop=4
 set incsearch
 set ignorecase

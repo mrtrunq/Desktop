@@ -1,12 +1,17 @@
 # start
 	export HOMEBREW_NO_AUTO_UPDATE=1
 	export PATH=$PATH:/usr/bin
+# ······························
 	if [ -z "$TMUX" ] && [ -n "$DISPLAY" ]; then
 		if tmux ls &>/dev/null; then
 			tmux attach-session
 		else
 			exec tmux new -s Desktop
 		fi
+	fi
+# ······························
+	if command -v Xorg >/dev/null 2>&1 && [ -z "$TMUX" ] && [ -z "$DISPLAY" ]; then
+		exec startx
 	fi
 # ------------------------------
 # history
