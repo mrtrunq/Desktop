@@ -1,0 +1,19 @@
+pane	Desktop	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+pane	Desktop	2	0	:-	0	linuxhost	:/home/trung	1	zsh	:
+pane	Home	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+pane	Unix	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+pane	dotfiles	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+pane	dotfiles	2	0	:-	0	linuxhost	:/home/trung	1	zsh	:
+pane	linux_data	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+pane	linux_data	2	0	:-	0	linuxhost	:/home/trung	1	zsh	:
+pane	sharing_data	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+window	Desktop	1	:zsh	1	:*	bebe,171x54,0,0,1	:
+window	Desktop	2	:zsh	0	:-	bebf,171x54,0,0,2	:
+window	Home	1	:zsh	1	:*	bec0,171x54,0,0,3	:
+window	Unix	1	:zsh	1	:*	bec1,171x54,0,0,4	:
+window	dotfiles	1	:zsh	1	:*	bec2,171x54,0,0,5	:
+window	dotfiles	2	:zsh	0	:-	bec3,171x54,0,0,6	:
+window	linux_data	1	:zsh	1	:*	bec4,171x54,0,0,7	:
+window	linux_data	2	:zsh	0	:-	bec5,171x54,0,0,8	:
+window	sharing_data	1	:[tmux]	1	:*	5f8f,171x54,0,0,10	:
+state	sharing_data	
