@@ -44,12 +44,12 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <tree>
     ├── ⚫️ <tldr>
     ├── ⚫️ <nvim>
-    ├── ⚫️ <pcmanfm>
     ├── ⚫️ <neofetch>
     ├── ⚫️ <wezterm> /homepage
+    ├── ⚫️ <pcmanfm> ⚫️ <gnome-themes-extra>
     ├── ⚫️ <tmux> ⚫️ <tmux-resurrect> ⚫️ <minimal-tmux-status>
     ├── ⚫️ <google-chrome-stable> $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-    │   #  sudo apt install fzf vim tree tldr tmux nvim neofetch -y
+    │   #  sudo apt install fzf vim tree tldr nvim neofetch pcmanfm gnome-themes-extra tmux -y
     │
     ├── ⚫️ <pamixer> 50
     ├── ⚫️ <exfat-fuse> ⚫️ <exfatprogs>

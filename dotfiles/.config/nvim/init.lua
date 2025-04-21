@@ -60,6 +60,7 @@ require("vscodescheme")
 require("nvim-surround").setup()
 -- ------------------------------
 -- neovim_options
+vim.opt.mouse = "a"
 vim.opt.laststatus = 0
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
