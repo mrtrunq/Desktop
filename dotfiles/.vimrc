@@ -50,5 +50,5 @@ vnoremap <A-Down> :m '>+1<CR>gv=gv
 
 nnoremap <leader>j gT
 nnoremap <leader>k gt
-nnoremap <leader>q :q<CR>
+nnoremap <leader>q :q<CR>:q<CR>
 
