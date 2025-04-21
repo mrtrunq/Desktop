@@ -1,3 +1,0 @@
-pane	Desktop	1	1	:*	0	macmini	:/Users/trung	1	zsh	:
-window	Desktop	1	:zsh	1	:*	af3d,172x50,0,0,0	:
-state	Desktop	
