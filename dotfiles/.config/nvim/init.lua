@@ -53,6 +53,21 @@ vim.keymap.set("n", "<leader>k", "gt", { noremap = true })
 vim.keymap.set("n", "<leader>q", ":q<CR>", { noremap = true })
 -- ------------------------------
 -- neovim_options
+vim.opt.laststatus = 0
+-- vim.cmd.colorscheme "vscode"
+-- ······························
+-- neovim_autocmds
+-- ······························
+-- neovim_keymaps
+vim.keymap.set("v", "<C-c>", '"+y')
+vim.keymap.set("n", "<C-v>", '"+p')
+vim.keymap.set("i", "<C-v>", '"+p')
+vim.keymap.set("v", "<C-v>", '"+p')
 -- ------------------------------
+-- neovim_lua
+require("vscode").setup({
+	transparent = true
+})
+require('vscode').load()
 require("nvim-surround").setup()
 
