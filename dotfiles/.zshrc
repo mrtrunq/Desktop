@@ -32,8 +32,8 @@
 # ------------------------------
 # node version manager
 	export NVM_DIR="$HOME/.nvm"
-	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 # ------------------------------
 # mysql
 	export PATH="/opt/homebrew/Cellar/mysql@8.0/8.0.41_3/bin:$PATH"
@@ -49,7 +49,8 @@
 	bindkey "^[[1;3D" backward-word
 # ------------------------------
 # alias
-	alias fzfroot='vi $(find / 2>/dev/null -type f | fzf)'
-	alias fzfhome='vi $(find ~ -type f | fzf)'
+	alias nv='nvim'
 	alias ll='tree -L 1'
+	alias fzfhome='vi $(find ~ -type f | fzf)'
+	alias fzfroot='vi $(find / 2>/dev/null -type f | fzf)'
 

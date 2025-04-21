@@ -14,6 +14,10 @@ config.window_padding = {
 	left = 16,
 	right = 16
 }
+config.keys = {
+	{key="PageUp", mods="SHIFT", action=wezterm.action.ScrollByPage(-1)},
+	{key="PageDown", mods="SHIFT", action=wezterm.action.ScrollByPage(1)},
+}
 
 return config
 

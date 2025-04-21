@@ -13,20 +13,6 @@ set encoding=utf-8
 set clipboard=unnamed
 let g:loaded_matchparen=1
 let $TERM="xterm-256color"
-
-" set mouse=a
-" set cursorline
-" set termguicolors
-" colorscheme tokyonight
-" ------------------------------
-" vim_autocmds
-" highlight Normal ctermbg=NONE guibg=NONE
-" highlight NormalNC ctermbg=NONE guibg=NONE
-" highlight EndOfBuffer ctermbg=NONE guibg=NONE
-
-" highlight LineNr ctermbg=NONE guibg=NONE
-" highlight CursorLine ctermbg=NONE guibg=NONE
-" highlight CursorLineNr ctermbg=NONE guibg=NONE
 " ------------------------------
 " vim_keymaps
 nnoremap j gjzz

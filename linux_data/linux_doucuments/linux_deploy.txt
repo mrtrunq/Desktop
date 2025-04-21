@@ -34,24 +34,26 @@ https://github.com/mrtrunq/Dotfiles.git
 	Utilities
     │
     ├── ⚫️ <stow>
-    ├── ⚫️ <zsh> $ chsh -s /bin/zsh
     ├── ⚫️ <zsh-autosuggestions>
+    ├── ⚫️ <zsh> $ chsh -s /bin/zsh
     ├── ⚫️ <zsh-syntax-highlighting> # sudo apt install stow zsh zsh-autosuggestions zsh-syntax-highlighting -y
     │   #  sudo apt install stow zsh zsh-autosuggestions zsh-syntax-highlighting -y
     │
     ├── ⚫️ <fzf>
+    ├── ⚫️ <vim>
     ├── ⚫️ <tree>
     ├── ⚫️ <tldr>
+    ├── ⚫️ <tmux> ⚫️ <tmux-resurrect> ⚫️ <minimal-tmux-status>
+    ├── ⚫️ <nvim>
     ├── ⚫️ <neofetch>
     ├── ⚫️ <wezterm> /homepage
     ├── ⚫️ <google-chrome-stable> $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-    │   #  sudo apt install fzf tree tldr neofetch alacritty -y
+    │   #  sudo apt install fzf vim tree tldr tmux nvim neofetch -y
     │
-    ├── ⚫️ <imwheel>
     ├── ⚫️ <pamixer> 50
     ├── ⚫️ <exfat-fuse> ⚫️ <exfatprogs>
     └── ⚫️ <bluez> ⚫️ <pulseaudio-module-bluetooth>
-        #  sudo apt install imwheel pamixer exfat-fuse exfatprogs bluez pulseaudio-module-bluetooth -y
+        #  sudo apt install pamixer exfat-fuse exfatprogs bluez pulseaudio-module-bluetooth -y
 ······························
     DE_XORG : suckless.org
     │

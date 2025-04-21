@@ -8,5 +8,10 @@
 ⚪️ [Shell]
 ⚫️ <TTY> Teletypewriter
     │
-    └── font == Terminus : 10x20
+    └── font == Terminus         : 10x20
+······························
+⚫️ <Wezterm>
+	.wezterm.lua
+    │
+    └── font == JetbrainsMono NF : 10
 
