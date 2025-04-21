@@ -66,8 +66,8 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
     { run_command, "  %s%% | ", "pamixer --get-volume" },
-    { cpu_perc, "  %s%%  ",    NULL },
-    { temp,     " %s°C | ",    "/sys/class/thermal/thermal_zone0/temp" },
+    { cpu_perc, "  %s%% ",    NULL },
+    { temp,     "+%s°C | ",    "/sys/class/thermal/thermal_zone0/temp" },
     { ram_used, "  %s | ",     NULL },
     { disk_used, "  %s | ",    "/" },
     { datetime, "  %s",        "%a %I:%M %p " },

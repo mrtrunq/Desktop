@@ -6,8 +6,10 @@ picom &
 sxhkd &
 slstatus &
 
-google-chrome &
 wezterm &
-sleep 1.2 && xdotool key super+Shift+2 &
+sleep 1 && google-chrome &
+sleep 1.4 && pcmanfm &
+sleep 1.6 && xdotool key super+alt+f &
+sleep 1.8 && xdotool key super+alt+b &
 
 exec dwm

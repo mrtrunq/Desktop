@@ -20,9 +20,14 @@
     [SchemeNorm] = { "#ffffff", "#000000", col_gray2 },
     [SchemeSel]  = { col_cyan,  "#000000", col_cyan  }
 
-	static const char *tags[] = { "  ", " " };
+	static const char *tags[] = { "   C", "  B", "  F" };
 
     #define MODKEY Mod4Mask
+    #define TAGKEYS(KEY,TAG) \
+        { Mod1Mask,                     KEY,      view,           {.ui = 1 << TAG} }, \
+        { MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
+        { MODKEY|Mod1Mask,              KEY,      tag,            {.ui = 1 << TAG} }, \
+        { MODKEY|ControlMask|ShiftMask, KEY,      toggletag,      {.ui = 1 << TAG} },
 
     /* static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL }; */
     static const char *dmenucmd[] = { "dmenu_run", NULL };
@@ -31,6 +36,10 @@
     { ControlMask,                  XK_space,  spawn,          {.v = dmenucmd } },
     { ControlMask,                  XK_Tab,    view,           {0} },
     { ControlMask,                  XK_q,      killclient,     {0} },
+
+	TAGKEYS(                        XK_c,                      0)
+	TAGKEYS(                        XK_b,                      1)
+	TAGKEYS(                        XK_f,                      2)
 ······························
 ⚫️ <dwm.c>
     /* if (occ & 1 << i)
@@ -57,8 +66,8 @@
 ⚪️ [slstatus]
 ⚫️ <config.h>
 	{ run_command, "  %s%% | ", "pamixer --get-volume" },
-	{ cpu_perc, "  %s%%  ",    NULL },
-	{ temp,     " %s°C | ",    "/sys/class/thermal/thermal_zone0/temp" },
+    { cpu_perc, "  %s%% ",     NULL },
+    { temp,     "+%s°C | ",     "/sys/class/thermal/thermal_zone0/temp" },
 	{ ram_used, "  %s | ",     NULL },
 	{ disk_used, "  %s | ",    "/" },
 	{ datetime, "  %s",        "%a %I:%M %p " },

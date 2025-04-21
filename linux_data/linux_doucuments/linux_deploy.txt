@@ -43,10 +43,11 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <vim>
     ├── ⚫️ <tree>
     ├── ⚫️ <tldr>
-    ├── ⚫️ <tmux> ⚫️ <tmux-resurrect> ⚫️ <minimal-tmux-status>
     ├── ⚫️ <nvim>
+    ├── ⚫️ <pcmanfm>
     ├── ⚫️ <neofetch>
     ├── ⚫️ <wezterm> /homepage
+    ├── ⚫️ <tmux> ⚫️ <tmux-resurrect> ⚫️ <minimal-tmux-status>
     ├── ⚫️ <google-chrome-stable> $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
     │   #  sudo apt install fzf vim tree tldr tmux nvim neofetch -y
     │
