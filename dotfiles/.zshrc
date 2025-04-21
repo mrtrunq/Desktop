@@ -11,7 +11,7 @@
 	fi
 # ······························
 	if command -v Xorg >/dev/null 2>&1 && [ -z "$TMUX" ] && [ -z "$DISPLAY" ]; then
-		# exec startx
+		exec startx
 	fi
 # ------------------------------
 # history

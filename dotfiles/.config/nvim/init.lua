@@ -51,7 +51,9 @@ vim.keymap.set("v", "<A-Down>", ":m '>+1<CR>gv=gv", { noremap = true })
 vim.keymap.set("n", "<leader>j", "gT", { noremap = true })
 vim.keymap.set("n", "<leader>k", "gt", { noremap = true })
 vim.keymap.set("n", "<leader>q", ":q<CR>:q<CR>", { noremap = true })
--- ------------------------------
+
+-- ------------------------------------------------------------------------------------------
+
 -- neovim_plugins
 require("nvimtree")
 require("vscodescheme")
@@ -64,20 +66,15 @@ vim.opt.termguicolors = true
 -- ······························
 -- neovim_autocmds
 vim.api.nvim_set_hl(0, "NvimTreeNormal", { bg = "NONE" })
-
--- Automatically close NvimTree when exiting Neovim
-vim.api.nvim_create_autocmd("BufUnload", {
-  pattern = "NvimTree_*",  -- targets nvim-tree buffers
-  command = "NvimTreeClose",
-})
+vim.api.nvim_set_hl(0, "NvimTreeOpenedFolderName", { bg = "NONE" })
 -- ······························
 -- neovim_keymaps
 vim.keymap.set("v", "<C-c>", '"+y')
 vim.keymap.set("n", "<C-v>", '"+p')
 vim.keymap.set("v", "<C-v>", '"+p')
 
-vim.keymap.set("n", "<C-Right>", ":wincmd p<CR>", { noremap = true })
-vim.keymap.set("n", "<C-Left>", ":NvimTreeFocus<CR>", { noremap = true })
+vim.keymap.set("n", "<S-Right>", ":wincmd p<CR>", { noremap = true })
+vim.keymap.set("n", "<S-Left>", ":NvimTreeFocus<CR>", { noremap = true })
 vim.keymap.set("n", "<F1>", ":NvimTreeFindFileToggle<CR>", { noremap = true })
 vim.keymap.set("i", "<F1>", "<Esc>:NvimTreeFindFileToggle<CR>", { noremap = true })
 vim.keymap.set("v", "<F1>", "<Esc>:NvimTreeFindFileToggle<CR>", { noremap = true })
