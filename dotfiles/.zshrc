@@ -1,6 +1,7 @@
 # start
-	export HOMEBREW_NO_AUTO_UPDATE=1
 	export PATH=$PATH:/usr/bin
+	export HOMEBREW_NO_AUTO_UPDATE=1
+	export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 # ······························
 	if [ -z "$TMUX" ] && [ -n "$DISPLAY" ]; then
 		if tmux ls &>/dev/null; then

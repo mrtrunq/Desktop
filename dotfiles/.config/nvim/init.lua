@@ -55,15 +55,25 @@ vim.keymap.set("n", "<leader>q", ":q<CR>:q<CR>", { noremap = true })
 -- ------------------------------------------------------------------------------------------
 
 -- neovim_plugins
-require("nvimtree")
-require("vscodescheme")
+require("mason").setup()
+require("Comment").setup()
 require("nvim-surround").setup()
+require("luasnip.loaders.from_vscode").lazy_load()
+-- ······························
+require("colorscheme")
+require("completion")
+require("findfile")
+require("formatter")
+require("lspconfig")
+require("mason_lsp")
+require("parser")
+require("tree")
 -- ------------------------------
 -- neovim_options
 vim.opt.mouse = "a"
 vim.opt.laststatus = 0
 vim.opt.cursorline = true
-vim.opt.termguicolors = true
+--vim.opt.termguicolors = true
 -- ······························
 -- neovim_autocmds
 vim.api.nvim_set_hl(0, "NvimTreeNormal", { bg = "NONE" })
@@ -73,10 +83,31 @@ vim.api.nvim_set_hl(0, "NvimTreeOpenedFolderName", { bg = "NONE" })
 vim.keymap.set("v", "<C-c>", '"+y')
 vim.keymap.set("n", "<C-v>", '"+p')
 vim.keymap.set("v", "<C-v>", '"+p')
-
+-- ------------------------------
+-- neovim_keymaps_nvim-tree
 vim.keymap.set("n", "<S-Right>", ":wincmd p<CR>", { noremap = true })
 vim.keymap.set("n", "<S-Left>", ":NvimTreeFocus<CR>", { noremap = true })
 vim.keymap.set("n", "<F1>", ":NvimTreeFindFileToggle<CR>", { noremap = true })
 vim.keymap.set("i", "<F1>", "<Esc>:NvimTreeFindFileToggle<CR>", { noremap = true })
 vim.keymap.set("v", "<F1>", "<Esc>:NvimTreeFindFileToggle<CR>", { noremap = true })
-
+-- ······························
+-- neovim_keymaps_telescope
+vim.keymap.set("n", "<C-p>", require("telescope.builtin").find_files, { noremap = true })
+-- ······························
+-- neovim_keymaps_nvim-lspconfig_explain_code
+vim.keymap.set("n", "<C-k>", vim.lsp.buf.hover, { noremap = true })
+-- ······························
+-- neovim_keymaps_nvim-lspconfig_format_code
+vim.keymap.set("n", "<C-f>", function()
+	vim.lsp.buf.format()
+	vim.cmd("write")
+end, { noremap = true })
+-- ······························
+-- neovim_keymaps_Comment
+vim.keymap.set("n", "<C-_>", "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>", { noremap = true })
+vim.keymap.set(
+	"v",
+	"<C-_>",
+	"<Esc><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>",
+	{ noremap = true }
+)

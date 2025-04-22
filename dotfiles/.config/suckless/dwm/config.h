@@ -35,7 +35,7 @@ static const unsigned int alphas[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "   W", "  C", "  F" };
+static const char *tags[] = { "   F", "  W", "  C" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -117,9 +117,9 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	TAGKEYS(                        XK_w,                      0)
-	TAGKEYS(                        XK_c,                      1)
-	TAGKEYS(                        XK_f,                      2)
+	TAGKEYS(                        XK_f,                      0)
+	TAGKEYS(                        XK_w,                      1)
+	TAGKEYS(                        XK_c,                      2)
 	TAGKEYS(                        XK_4,                      3)
 	TAGKEYS(                        XK_5,                      4)
 	TAGKEYS(                        XK_6,                      5)
