@@ -46,8 +46,8 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <nvim>
     ├── ⚫️ <neofetch>
     ├── ⚫️ <wezterm> /homepage
-    ├── ⚫️ <pcmanfm> ⚫️ <gnome-themes-extra>
-    ├── ⚫️ <tmux> ⚫️ <tmux-resurrect> ⚫️ <minimal-tmux-status>
+    ├── ⚫️ <tmux> ⚫️ <github_tmux-resurrect> ⚫️ <github_minimal-tmux-status>
+    ├── ⚫️ <pcmanfm> ⚫️ <gnome-themes-extra> ⚫️ <github_WhiteSur-icon-theme>
     ├── ⚫️ <google-chrome-stable> $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
     │   #  sudo apt install fzf vim tree tldr nvim neofetch pcmanfm gnome-themes-extra tmux -y
     │
@@ -65,16 +65,16 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <xorg> ⚫️ <xserver-xorg>
     │   #  sudo apt install libx11-dev libxft-dev libxinerama-dev build-enssential xorg xserver-xorg -y
     │
-    ├── ⚫️ <dwm>      $ git clone https://git.suckless.org/dwm
-    ├── ⚫️ <dmenu>    $ git clone https://git.suckless.org/dmenu
-    ├── ⚫️ <slstatus> $ git clone https://git.suckless.org/slstatus
+    ├── ⚫️ <git_dwm>      $ git clone https://git.suckless.org/dwm
+    ├── ⚫️ <git_dmenu>    $ git clone https://git.suckless.org/dmenu
+    ├── ⚫️ <git_slstatus> $ git clone https://git.suckless.org/slstatus
     ├── ⚫️ <feh>
     ├── ⚫️ <scrot>
     ├── ⚫️ <picom>
     ├── ⚫️ <xshkd>
     ├── ⚫️ <xdotool>
     └── ⚫️ <fonts-noto-color-emoji>
-        #  sudo apt feh scrot picom sxhkd xdotool -y
+        #  sudo apt feh scrot picom sxhkd xdotool fonts-noto-color-emoji -y
         
     Patches : suckless.org
     │
