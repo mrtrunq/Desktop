@@ -238,3 +238,7 @@ automatically-unhide-macos-hidden-apps = false
 	if.app-id = 'com.apple.TextEdit'
 	run = 'move-node-to-workspace T'
 
+[[on-window-detected]]
+	if.app-id = 'com.microsoft.rdc.macos'
+	run = 'move-node-to-workspace A'
+
