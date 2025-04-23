@@ -1,0 +1,17 @@
+pane	Desktop	1	1	:*	0	linuxhost	:/Users/trung/Desktop	1	zsh	:
+pane	Desktop	2	0	:-	0	linuxhost	:/Users/trung/Desktop	1	zsh	:
+pane	Home	1	1	:*	0	linuxhost	:/Users/trung	1	zsh	:
+pane	Unix	1	1	:*	0	linuxhost	:/Users/trung/Unix	1	zsh	:
+pane	dotfiles	1	1	:*	0	linuxhost	:/Users/trung/Unix/dotfiles	1	nvim	:nvim .config/kitty/kitty.conf
+pane	dotfiles	2	0	:-	0	linuxhost	:/Users/trung/Unix/dotfiles	1	zsh	:
+pane	linux_data	1	1	:*	0	linuxhost	:/Users/trung/Unix/linux_data/linux_installers	1	zsh	:
+pane	sharing_data	1	1	:*	0	linuxhost	:/Users/trung/Unix/sharing_data	1	zsh	:
+window	Desktop	1	:zsh	1	:*	bf3e,172x54,0,0,1	:
+window	Desktop	2	:zsh	0	:-	bf3f,172x54,0,0,2	:
+window	Home	1	:zsh	1	:*	bf40,172x54,0,0,3	:
+window	Unix	1	:zsh	1	:*	bf41,172x54,0,0,4	:
+window	dotfiles	1	:nvim	1	:*	b7e2,83x63,0,0,5	:
+window	dotfiles	2	:zsh	0	:-	bd43,172x63,0,0,6	:
+window	linux_data	1	:zsh	1	:*	bd44,172x63,0,0,7	:
+window	sharing_data	1	:zsh	1	:*	bf45,172x54,0,0,8	:
+state	sharing_data	Home

@@ -213,30 +213,35 @@ automatically-unhide-macos-hidden-apps = false
     up = 'volume up'
     shift-down = ['volume set 0', 'mode main']
 
-# trung
+# trung | % osascript -e 'id of app "Finder"'
+
 [[on-window-detected]]
 	if.app-id = 'com.apple.finder'
 	run = 'move-node-to-workspace F'
-
-[[on-window-detected]]
-	if.app-id = 'com.facebook.archon'
-	run = 'move-node-to-workspace M'
-
-[[on-window-detected]]
-	if.app-id = 'com.google.Chrome'
-	run = 'move-node-to-workspace C'
 
 [[on-window-detected]]
 	if.app-id = 'com.github.wez.wezterm'
 	run = 'move-node-to-workspace W'
 
 [[on-window-detected]]
-	if.app-id = 'com.microsoft.VSCode'
-	run = 'move-node-to-workspace V'
+	if.app-id = 'com.google.Chrome'
+	run = 'move-node-to-workspace C'
+
+[[on-window-detected]]
+	if.app-id = 'com.facebook.archon'
+	run = 'move-node-to-workspace M'
 
 [[on-window-detected]]
 	if.app-id = 'com.apple.TextEdit'
 	run = 'move-node-to-workspace T'
+
+[[on-window-detected]]
+	if.app-id = 'com.microsoft.VSCode'
+	run = 'move-node-to-workspace V'
+
+[[on-window-detected]]
+	if.app-id = 'com.microsoft.Excel'
+	run = 'move-node-to-workspace E'
 
 [[on-window-detected]]
 	if.app-id = 'com.microsoft.rdc.macos'
