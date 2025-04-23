@@ -1,5 +1,5 @@
 -- vim_options
-vim.opt.syntax = "on"
+vim.opt.syntax = 'on'
 vim.opt.number = true
 vim.opt.tabstop = 4
 vim.opt.incsearch = true
@@ -51,13 +51,16 @@ vim.keymap.set("v", "<A-Down>", ":m '>+1<CR>gv=gv", { noremap = true })
 vim.keymap.set("n", "<leader>j", "gT", { noremap = true })
 vim.keymap.set("n", "<leader>k", "gt", { noremap = true })
 vim.keymap.set("n", "<leader>q", ":q<CR>:q<CR>", { noremap = true })
+-- ------------------------------
+-- vim_keymaps_vim-commentary
+vim.api.nvim_command('filetype plugin indent on')
+vim.api.nvim_set_keymap('v', '<C-_>', '<Plug>Commentary', { noremap = true })
+vim.api.nvim_set_keymap('n', '<C-_>', '<Plug>CommentaryLine', { noremap = true })
 
 -- ------------------------------------------------------------------------------------------
 
 -- neovim_plugins
 require("mason").setup()
-require("Comment").setup()
-require("nvim-surround").setup()
 require("luasnip.loaders.from_vscode").lazy_load()
 -- ······························
 require("colorscheme")
@@ -102,12 +105,4 @@ vim.keymap.set("n", "<C-f>", function()
 	vim.lsp.buf.format()
 	vim.cmd("write")
 end, { noremap = true })
--- ······························
--- neovim_keymaps_Comment
-vim.keymap.set("n", "<C-_>", "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>", { noremap = true })
-vim.keymap.set(
-	"v",
-	"<C-_>",
-	"<Esc><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>",
-	{ noremap = true }
-)
+

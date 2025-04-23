@@ -9,7 +9,7 @@ feh --bg-max ~/Unix/sharing_data/share_gallery/backgrounds_jpg/wallpaperflare.co
 pcmanfm &
 wezterm &
 google-chrome &
-sleep 1.2 && xdotool key alt+shift+w &
-sleep 1.4 && xdotool key alt+shift+c &
+sleep 1.2 && xdotool key alt+shift+c &
+sleep 1.4 && xdotool key alt+shift+w &
 
 exec dwm

@@ -1,6 +1,6 @@
 🟩 [Ubuntu Server Configurations]
 
-https://github.com/mrtrunq/Dotfiles.git
+https://github.com/mrtrunq/Unix.git
 ------------------------------
 ⚪️ [Command]
 ⚫️ <TTY Change Font>
@@ -46,7 +46,7 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <tldr>
     ├── ⚫️ <nvim>
     ├── ⚫️ <neofetch>
-    ├── ⚫️ <wezterm> /homepage
+    ├── ⚫️ <web_wezterm>
     ├── ⚫️ <tmux> ⚫️ <github_tmux-resurrect> ⚫️ <github_minimal-tmux-status>
     ├── ⚫️ <pcmanfm> ⚫️ <gnome-themes-extra> ⚫️ <github_WhiteSur-icon-theme>
     ├── ⚫️ <google-chrome-stable> $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -74,8 +74,9 @@ https://github.com/mrtrunq/Dotfiles.git
     ├── ⚫️ <picom>
     ├── ⚫️ <xshkd>
     ├── ⚫️ <xdotool>
-    └── ⚫️ <fonts-noto-color-emoji>
-        #  sudo apt feh scrot picom sxhkd xdotool fonts-noto-color-emoji -y
+    ├── ⚫️ <fonts-noto-color-emoji>
+    └── ⚫️ <github_ly> ⚫️ <web_zig> ⚫️ <libpam0g-dev> ⚫️ <libxcb-xkb-dev>
+        #  sudo apt feh scrot picom sxhkd xdotool fonts-noto-color-emoji libpam0g-dev libxcb-xkb-dev -y
         
     Patches : suckless.org
     │

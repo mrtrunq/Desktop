@@ -51,4 +51,9 @@ vnoremap <A-Down> :m '>+1<CR>gv=gv
 nnoremap <leader>j gT
 nnoremap <leader>k gt
 nnoremap <leader>q :q<CR>:q<CR>
+" ------------------------------
+" vim_keymaps_vim-commentary
+filetype plugin indent on
+vnoremap <C-_> <Plug>Commentary
+nnoremap <C-_> <Plug>CommentaryLine
 

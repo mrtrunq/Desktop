@@ -502,7 +502,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/forcedotcom/salesforcedx-vscode@v63.9.2",
+      "id": "pkg:github/forcedotcom/salesforcedx-vscode@v63.10.0",
       "asset": {
         "file": "salesforcedx-vscode-apex-{{ version | strip_prefix \"v\" }}.vsix"
       }
@@ -2383,7 +2383,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/github/codeql-cli-binaries@v2.21.0",
+      "id": "pkg:github/github/codeql-cli-binaries@v2.21.1",
       "asset": [
         {
           "target": [
@@ -3085,7 +3085,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40neo4j-cypher/language-server@2.0.0-next.19"
+      "id": "pkg:npm/%40neo4j-cypher/language-server@2.0.0-next.20"
     },
     "bin": {
       "cypher-language-server": "npm:cypher-language-server"
@@ -7545,7 +7545,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:npm/%40mistweaverco/kulala-fmt@2.9.0"
+      "id": "pkg:npm/%40mistweaverco/kulala-fmt@2.10.0"
     },
     "bin": {
       "kulala-fmt": "npm:kulala-fmt"
@@ -11031,7 +11031,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/pyright@1.1.399"
+      "id": "pkg:npm/pyright@1.1.400"
     },
     "schemas": {
       "lsp": "vscode:https://raw.githubusercontent.com/microsoft/pyright/{{version}}/packages/vscode-pyright/package.json"
@@ -11317,7 +11317,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/styrainc/regal@v0.32.0",
+      "id": "pkg:github/styrainc/regal@v0.33.1",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -12100,7 +12100,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:pypi/semgrep@1.119.0",
+      "id": "pkg:pypi/semgrep@1.120.0",
       "supported_platforms": [
         "unix"
       ]
@@ -12402,7 +12402,7 @@
       "Compiler"
     ],
     "source": {
-      "id": "pkg:github/shader-slang/slang@v2025.6.4",
+      "id": "pkg:github/shader-slang/slang@v2025.7",
       "asset": [
         {
           "target": "linux_x64_gnu",
@@ -12967,7 +12967,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/sorbet@0.5.12028",
+      "id": "pkg:gem/sorbet@0.5.12032",
       "supported_platforms": [
         "unix"
       ]
@@ -15538,7 +15538,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:github/chipsalliance/verible@v0.0-3967-gd0f83bfd",
+      "id": "pkg:github/chipsalliance/verible@v0.0-3969-g6a70680a",
       "asset": [
         {
           "target": "linux_x64",
@@ -15763,7 +15763,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/forcedotcom/salesforcedx-vscode@v63.9.2",
+      "id": "pkg:github/forcedotcom/salesforcedx-vscode@v63.10.0",
       "asset": {
         "file": "salesforcedx-vscode-visualforce-{{ version | strip_prefix \"v\" }}.vsix"
       }

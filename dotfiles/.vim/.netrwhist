@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/trung/Unix'
+let g:netrw_dirhist_7='/home/trung/Unix/dotfiles'
+let g:netrw_dirhist_6='/home/trung/Unix'
+let g:netrw_dirhist_5='/home/trung/Unix/linux_data'
+let g:netrw_dirhist_4='/home/trung/Unix'
+let g:netrw_dirhist_3='/home/trung/Unix/dotfiles'
+let g:netrw_dirhist_2='/home/trung/Unix'
 let g:netrw_dirhist_1='/Users/trung/Unix/linux_data/linux_installers'

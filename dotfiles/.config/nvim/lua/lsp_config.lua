@@ -1,4 +1,5 @@
 require("lspconfig").lua_ls.setup({
+	on_attach = require("plugin.configs.lspconfig")
 	capabilities = require("cmp_nvim_lsp").default_capabilities(),
 
 	settings = {

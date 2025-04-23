@@ -1,0 +1,17 @@
+pane	Desktop	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+pane	Desktop	2	0	:-	0	linuxhost	:/home/trung	1	zsh	:
+pane	Home	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+pane	Unix	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+pane	dotfiles	1	1	:*	0	linuxhost	:/home/trung/Unix/dotfiles	1	zsh	:
+pane	dotfiles	2	0	:-	0	linuxhost	:/home/trung/Unix/dotfiles/.vim/pack/native/start	1	zsh	:
+pane	linux_data	1	1	:*	0	linuxhost	:/home/trung/Unix/linux_data/linux_installers	1	zsh	:
+pane	sharing_data	1	1	:*	0	linuxhost	:/home/trung	1	zsh	:
+window	Desktop	1	:zsh	1	:*	c0be,175x54,0,0,1	:
+window	Desktop	2	:zsh	0	:-	c0bf,175x54,0,0,2	:
+window	Home	1	:zsh	1	:*	c0c0,175x54,0,0,3	:
+window	Unix	1	:zsh	1	:*	c0c1,175x54,0,0,4	:
+window	dotfiles	1	:zsh	1	:*	c0c2,175x54,0,0,5	:
+window	dotfiles	2	:zsh	0	:-	c0c3,175x54,0,0,6	:
+window	linux_data	1	:zsh	1	:*	c0c4,175x54,0,0,7	:
+window	sharing_data	1	:zsh	1	:*	c0c5,175x54,0,0,8	:
+state	dotfiles	linux_data

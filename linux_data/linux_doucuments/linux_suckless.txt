@@ -5,12 +5,12 @@
     ⚫️ <dwm-vanitygaps>
     static const unsigned int gappiv    = 16;
     static const unsigned int gappoh    = 16;
-    static const unsigned int gappov    = 256;
+    static const unsigned int gappov    = 240;
    
     ⚫️ <NVIDIA Driver>
     ⚫️ <fonts-noto-color-emoji>
     static const char *fonts[] = {
-        "JetbrainsMono NF:size=13",
+		"SFNS:size=13",
         "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true"
     };
    
@@ -20,7 +20,7 @@
     [SchemeNorm] = { "#ffffff", "#000000", col_gray2 },
     [SchemeSel]  = { col_cyan,  "#000000", col_cyan  }
 
-	static const char *tags[] = { "   F", "  W", "  C" };
+	static const char *tags[] = { "     F", "   W", "   C" };
 
     #define MODKEY Mod4Mask
     #define TAGKEYS(KEY,TAG) \
@@ -65,10 +65,10 @@
 ------------------------------
 ⚪️ [slstatus]
 ⚫️ <config.h>
-	{ run_command, "  %s%% | ", "pamixer --get-volume" },
-    { cpu_perc, "  %s%% ",     NULL },
-    { temp,     "+%s°C | ",     "/sys/class/thermal/thermal_zone0/temp" },
-	{ ram_used, "  %s | ",     NULL },
-	{ disk_used, "  %s | ",    "/" },
-	{ datetime, "  %s",        "%a %I:%M %p " },
+	{ run_command, "Vol %s%%  |  ", "pamixer --get-volume" },
+	{ cpu_perc, "CPU %s%% ",    NULL },
+	{ temp,     "+%s°C  |  ",   "/sys/class/thermal/thermal_zone0/temp" },
+	{ ram_used, "Mem %s  |  ",  NULL },
+	{ disk_used, "Disk %s  |  ", "/" },
+	{ datetime, "%s  ",         "%a %I:%M %p" },
 
