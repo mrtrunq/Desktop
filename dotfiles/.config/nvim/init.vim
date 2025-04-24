@@ -1,0 +1,96 @@
+" vim_options
+syntax on
+set number
+set tabstop=4
+set incsearch
+set ignorecase
+set nohlsearch
+set noshowmode
+set cursorline
+set smartindent
+set shiftwidth=4
+let mapleader=' '
+set encoding=utf-8
+set clipboard=unnamed
+let g:loaded_matchparen=1
+let $TERM="xterm-256color"
+" ------------------------------
+" vim_keymaps
+nnoremap j gjzz
+vnoremap j gjzz
+nnoremap k gkzz
+vnoremap k gkzz
+
+nnoremap J 5gjzz
+vnoremap J 5gjzz
+nnoremap K 5gkzz
+vnoremap K 5gkzz
+
+nnoremap H 5h
+vnoremap H 5h
+nnoremap L 5l
+vnoremap L 5l
+
+nnoremap X d^i
+nnoremap G Gzz
+nnoremap U <C-r>
+
+nnoremap n nzz
+nnoremap N Nzz
+" ······························
+nnoremap <C-d> yyp
+inoremap <C-d> <Esc>yyp
+
+nnoremap <C-s> :w<CR>
+inoremap <C-s> <Esc>:w<CR>
+
+nnoremap <A-Up> :m .-2<CR>
+nnoremap <A-Down> :m .+1<CR>
+vnoremap <A-Up> :m '<-2<CR>gv=gv
+vnoremap <A-Down> :m '>+1<CR>gv=gv
+
+nnoremap <leader>j gT
+nnoremap <leader>k gt
+nnoremap <leader>q :q<CR>:q<CR>
+" ------------------------------
+" vim_plugins
+colorscheme dracula
+highlight Type ctermbg=NONE guibg=NONE
+highlight Normal ctermbg=NONE guibg=NONE
+" ······························
+let NERDTreeShowHidden=1
+nnoremap <F1> :NERDTreeToggle<CR>
+inoremap <F1> :NERDTreeToggle<CR>
+vnoremap <F1> :NERDTreeToggle<CR>
+" ······························
+nnoremap <C-p> :Files<CR>
+" ······························
+filetype plugin indent on
+vnoremap <C-_> <Plug>Commentary
+nnoremap <C-_> <Plug>CommentaryLine
+" ······························
+inoremap <C-i> <C-R>=coc#refresh()<CR>
+nnoremap <F2> :CocAction('rename')<CR>
+nnoremap gd :CocCommand jumpDefinition<CR>
+nnoremap gr :CocCommand jumpReferences<CR>
+nnoremap <C-k> :call CocAction('doHover')<CR>
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<C-j>"
+inoremap <expr> <CR> pumvisible() ? coc#_select_confirm() : "\<CR>"
+
+" ------------------------------------------------------------------------------------------
+
+" neovim_options
+set laststatus=0
+" ------------------------------
+" neovim_keymaps
+vnoremap <C-c> "+y
+nnoremap <C-v> "+p
+vnoremap <C-v> "+p
+" ------------------------------
+" neovim_plugins
+" lua require("colorscheme")
+" highlight CursorLine guibg=#424450
+" highlight CursorLineNr guibg=#424450
+" ······························
+lua require("parser")
+

@@ -51,7 +51,8 @@
 # ------------------------------
 # alias
 	alias nv='nvim'
-	alias ll='tree -L 1'
+	alias bat='batcat'
+	alias ll='tree -L 1 -a'
 	alias fzfhome='vi $(find ~ -type f | fzf)'
 	alias fzfroot='vi $(find / 2>/dev/null -type f | fzf)'
 

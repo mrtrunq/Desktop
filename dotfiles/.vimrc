@@ -6,6 +6,7 @@ set incsearch
 set ignorecase
 set nohlsearch
 set noshowmode
+set cursorline
 set smartindent
 set shiftwidth=4
 let mapleader=' '
@@ -52,8 +53,27 @@ nnoremap <leader>j gT
 nnoremap <leader>k gt
 nnoremap <leader>q :q<CR>:q<CR>
 " ------------------------------
-" vim_keymaps_vim-commentary
+" vim_plugins
+colorscheme dracula
+highlight Type ctermbg=NONE guibg=NONE
+highlight Normal ctermbg=NONE guibg=NONE
+" ······························
+let NERDTreeShowHidden=1
+nnoremap <F1> :NERDTreeToggle<CR>
+inoremap <F1> :NERDTreeToggle<CR>
+vnoremap <F1> :NERDTreeToggle<CR>
+" ······························
+nnoremap <C-p> :Files<CR>
+" ······························
 filetype plugin indent on
 vnoremap <C-_> <Plug>Commentary
 nnoremap <C-_> <Plug>CommentaryLine
+" ······························
+inoremap <C-i> <C-R>=coc#refresh()<CR>
+nnoremap <F2> :CocAction('rename')<CR>
+nnoremap gd :CocCommand jumpDefinition<CR>
+nnoremap gr :CocCommand jumpReferences<CR>
+nnoremap <C-k> :call CocAction('doHover')<CR>
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<C-j>"
+inoremap <expr> <CR> pumvisible() ? coc#_select_confirm() : "\<CR>"
 

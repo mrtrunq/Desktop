@@ -42,9 +42,11 @@ https://github.com/mrtrunq/Unix.git
     ├── ⚫️ <fzf>
     ├── ⚫️ <vim>
     ├── ⚫️ <npm>
+    ├── ⚫️ <bat>
     ├── ⚫️ <tree>
     ├── ⚫️ <tldr>
     ├── ⚫️ <nvim>
+    ├── ⚫️ <xclip>
     ├── ⚫️ <neofetch>
     ├── ⚫️ <web_wezterm>
     ├── ⚫️ <tmux> ⚫️ <github_tmux-resurrect> ⚫️ <github_minimal-tmux-status>
