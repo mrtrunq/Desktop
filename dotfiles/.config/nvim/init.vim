@@ -94,4 +94,5 @@ vnoremap <C-v> "+p
 " ------------------------------
 " neovim_plugins
 lua require("parser")
+lua require("ibl").setup()
 

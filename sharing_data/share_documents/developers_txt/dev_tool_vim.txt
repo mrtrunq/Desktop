@@ -1,0 +1,44 @@
+🟩 [Vim & Neovim]
+
+⚪️ [Sharing]
+⚫️ <coc.nvim>
+	│
+	├── coc-tsserver
+	├── coc-json
+	└── coc-clangd
+		│
+		├── apt  == ⚫️ <clangd>
+		└── brew == ⚫️ <llvm>
+------------------------------
+⚪️ [Vim]
+	.vim/pack/<native>/start(11)
+    │
+    ├── ⚫️ <coc.nvim>
+    ├── ⚫️ <fzf>
+    ├── ⚫️ <fzf.vim>
+    ├── ⚫️ <nerdtree>
+    ├── ⚫️ <vim-code-dark>
+    ├── ⚫️ <vim-commentary>
+    ├── ⚫️ <vim-devicons>
+    ├── ⚫️ <vim-nerdtree-sync>
+    ├── ⚫️ <vim-nerdtree-syntax-highlight>
+    ├── ⚫️ <vim-surround>
+    └── ⚫️ <vim-visual-multi>
+------------------------------
+⚪️ [Neovim]
+	.config/nvim/pack/<native>/start(13)
+    │
+    ├── ⚫️ <coc.nvim>
+    ├── ⚫️ <fzf>
+    ├── ⚫️ <fzf.vim>
+    ├── ⚫️ <indent-blankline.nvim>
+    ├── ⚫️ <nerdtree>
+    ├── ⚫️ <nvim-treesitter>
+    ├── ⚫️ <vim-code-dark>
+    ├── ⚫️ <vim-commentary>
+    ├── ⚫️ <vim-devicons>
+    ├── ⚫️ <vim-nerdtree-sync>
+    ├── ⚫️ <vim-nerdtree-syntax-highlight>
+    ├── ⚫️ <vim-surround>
+    └── ⚫️ <vim-visual-multi>
+
