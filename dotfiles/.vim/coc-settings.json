@@ -1,48 +1,5 @@
 {
 	"coc.preferences.formatOnSaveFiletypes": [
 		"*"
-	],
-	"languageserver": {
-		"ccls": {
-			"command": "ccls",
-			"filetypes": [
-				"c",
-				"cpp",
-				"cuda",
-				"objc",
-				"objcpp"
-			],
-			"rootPatterns": [
-				".ccls",
-				"compile_commands.json"
-			],
-			"initializationOptions": {
-				"cache": {
-					"directory": ".ccls-cache",
-					"format": "binary"
-				},
-				"client": {
-					"snippetSupport": true
-				},
-				"index": {
-					"onChange": true
-				},
-				"highlight": {
-					"lsRanges": true
-				}
-			}
-		},
-		"cmake": {
-			"command": "cmake-language-server",
-			"filetypes": [
-				"cmake"
-			],
-			"rootPatterns": [
-				"build/"
-			],
-			"initializationOptions": {
-				"buildDirectory": "build"
-			}
-		}
-	}
+	]
 }

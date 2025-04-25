@@ -61,10 +61,10 @@ automatically-unhide-macos-hidden-apps = false
 [gaps]
     inner.horizontal = 16
     inner.vertical =   16
-    outer.left =       256
+    outer.left =       240
     outer.bottom =     16
     outer.top =        16
-    outer.right =      256
+    outer.right =      240
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
