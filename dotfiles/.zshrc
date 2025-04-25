@@ -1,4 +1,4 @@
-# start
+# boot
 	export PATH=$PATH:/usr/bin
 	export HOMEBREW_NO_AUTO_UPDATE=1
 	export PATH="$PATH:/opt/nvim-linux-x86_64/bin"

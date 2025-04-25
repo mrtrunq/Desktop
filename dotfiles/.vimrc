@@ -13,6 +13,7 @@ let mapleader=' '
 set encoding=utf-8
 set clipboard=unnamed
 let g:loaded_matchparen=1
+filetype plugin indent on
 let $TERM="xterm-256color"
 " ------------------------------
 " vim_keymaps
@@ -54,26 +55,30 @@ nnoremap <leader>k gt
 nnoremap <leader>q :q<CR>:q<CR>
 " ------------------------------
 " vim_plugins
-colorscheme dracula
-highlight Type ctermbg=NONE guibg=NONE
-highlight Normal ctermbg=NONE guibg=NONE
+let g:codedark_transparent=1
+set t_Co=256
+set t_ut=
+colorscheme codedark
+highlight CursorLine ctermbg=238 guibg=#424450
+highlight CursorLineNr ctermbg=238 guibg=#424450
 " ······························
 let NERDTreeShowHidden=1
 nnoremap <F1> :NERDTreeToggle<CR>
-inoremap <F1> :NERDTreeToggle<CR>
-vnoremap <F1> :NERDTreeToggle<CR>
+let g:nerdtree_sync_cursorline = 1
 " ······························
 nnoremap <C-p> :Files<CR>
 " ······························
-filetype plugin indent on
 vnoremap <C-_> <Plug>Commentary
 nnoremap <C-_> <Plug>CommentaryLine
 " ······························
-inoremap <C-i> <C-R>=coc#refresh()<CR>
-nnoremap <F2> :CocAction('rename')<CR>
-nnoremap gd :CocCommand jumpDefinition<CR>
-nnoremap gr :CocCommand jumpReferences<CR>
-nnoremap <C-k> :call CocAction('doHover')<CR>
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<C-j>"
-inoremap <expr> <CR> pumvisible() ? coc#_select_confirm() : "\<CR>"
+nnoremap gb <C-o>
+nmap <F2> <Plug>(coc-rename)
+inoremap <expr> <C-y> coc#refresh()
+nnoremap <nowait> gd <Plug>(coc-definition)
+nnoremap <nowait> gr <Plug>(coc-references)
+nnoremap <nowait> gi <Plug>(coc-implementation)
+nnoremap <C-k> :call CocActionAsync('doHover')<CR>
+inoremap <expr> <C-j> coc#pum#visible() ? coc#pum#next(1) : ""
+inoremap <expr> <C-k> coc#pum#visible() ? coc#pum#prev(1) : ""
+inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#confirm() : "<Tab>"
 
