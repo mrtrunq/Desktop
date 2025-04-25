@@ -10,7 +10,7 @@
 ······························
 ⚫️ <Schedule>
     Focus    : Photoshop > Illustrator > Figma > Apache > Jenkins
-	Learn    : C > C++ > DSA
+	Learn    : C > C++ > DSA > Java > C#
 ------------------------------
 ⚪️ [Time]
     │

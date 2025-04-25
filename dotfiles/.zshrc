@@ -50,7 +50,7 @@
 	bindkey "^[[1;3D" backward-word
 # ------------------------------
 # alias
-	alias nv='nvim'
+	alias nvi='nvim'
 	alias bat='batcat'
 	alias ll='tree -L 1 -a'
 	alias fzfhome='vi $(find ~ -type f | fzf)'
