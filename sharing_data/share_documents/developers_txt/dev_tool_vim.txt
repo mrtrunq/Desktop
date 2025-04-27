@@ -23,7 +23,7 @@
     ├── ⚫️ <vim-nerdtree-sync>
     ├── ⚫️ <vim-nerdtree-syntax-highlight>
     ├── ⚫️ <vim-surround>
-    └── ⚫️ <vim-visual-multi>
+    └── ⚫️ <vim-multiple-cursors>
 ------------------------------
 ⚪️ [Neovim]
 	.config/nvim/pack/<native>/start(13)
@@ -40,5 +40,5 @@
     ├── ⚫️ <vim-nerdtree-sync>
     ├── ⚫️ <vim-nerdtree-syntax-highlight>
     ├── ⚫️ <vim-surround>
-    └── ⚫️ <vim-visual-multi>
+    └── ⚫️ <vim-multiple-cursors>
 

@@ -81,4 +81,6 @@ nnoremap <C-k> :call CocActionAsync('doHover')<CR>
 inoremap <expr> <C-j> coc#pum#visible() ? coc#pum#next(1) : ""
 inoremap <expr> <C-k> coc#pum#visible() ? coc#pum#prev(1) : ""
 inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#confirm() : "<Tab>"
+" ······························
+let g:multi_cursor_select_all_word_key = '<C-l>'
 

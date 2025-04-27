@@ -1,6 +1,7 @@
 🟩 [Step By Step]
 
 ⚪️ [To Do List]
+	vps backup to github
 	va not keo vao tuong
 	price list > search gr fb > make photos list > up photo group > make video up ytb
 ------------------------------
@@ -9,8 +10,8 @@
     The Windy > Duolingo > Phone charge > Check VPS | DoDaily
 ······························
 ⚫️ <Schedule>
-    Focus    : Photoshop > Illustrator > Figma > Apache > Jenkins
-	Learn    : C > C++ > DSA > Java > C#
+    Focus    : Figma > Apache > Jenkins
+	Learn    : C > C++ > DSA > Java > C# > Python
 ------------------------------
 ⚪️ [Time]
     │
