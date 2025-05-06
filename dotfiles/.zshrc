@@ -53,6 +53,7 @@
 	alias nvi='nvim'
 	alias bat='batcat'
 	alias ll='tree -L 1 -a'
+	alias grep='grep --color=auto -i'
 	alias fzfhome='vi $(find ~ -type f | fzf)'
 	alias fzfroot='vi $(find / 2>/dev/null -type f | fzf)'
 

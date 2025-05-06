@@ -4,7 +4,7 @@
 ⚫️ <.bash_profile>
     # trung
     parse_git_branch() {
-        git branch 2>/dev/null | sed -n '/\* /s/\* \(.*\)/(\1) /p'
+		git branch 2>/dev/null | sed -n '/\* /s/\* \(.*\)/ \1 /p'
     }
     export PS1='\[\e[32m\]\u@\h \[\e[33m\]\W \[\033[36m\]$(parse_git_branch)\[\e[0m\]\$ '
 ······························
@@ -19,7 +19,9 @@
 
 ⚪️ [Packages]
     │
-    └── ⚫️ <ollama> $ curl -fsSL https://ollama.com/install.sh | sh
+    ├── ⚫️ <web_ollama>
+    ├── ⚫️ <ibus-bamboo>
+    └── ⚫️ <web_cloudflare>
 ······························
 ⚪️ [Packages Configuration]
 ⚫️ <Ollama>

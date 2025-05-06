@@ -3,13 +3,23 @@
 https://github.com/mrtrunq/Unix.git
 ------------------------------
 ⚪️ [Command]
-⚫️ <TTY Change Font>
-    # sudo dpkg-reconfigure console-setup
-    UTF-8 > Vietnamese > Select
-    # sudo vi /etc/default/console-setup
+⚫️ <Vietnam Archive Mirror>
+	# sudo vi /etc/apt/sources.list
+		deb http://mirror.viettelcloud.vn/ubuntu/ noble main 
+		deb-src http://mirror.viettelcloud.vn/ubuntu/ noble main
 ······························
-⚫️ <Time zone>
+⚫️ <Teletypewriter Change Font>
+	# sudo dpkg-reconfigure console-setup > UTF-8 > . Latin - Vietnamese > Terminus > 10x20
+	# sudo vi /etc/default/console-setup
+·····························
+⚫️ <Time Zone>
     # sudo timedatectl set-timezone Asia/Ho_Chi_Minh && timedatectl
+······························
+⚫️ <Install Fonts>
+    │
+    ├── # cp <source_font> ~/.local/share/fonts
+    ├── # fc-cache -fv
+    └── # fc-list | grep <font_name>
 ······························
 ⚫️ <NVIDIA Driver>
     # sudo add-apt-repository ppa:graphics-drivers/ppa -y
@@ -36,7 +46,7 @@ https://github.com/mrtrunq/Unix.git
     ├── ⚫️ <stow>
     ├── ⚫️ <zsh-autosuggestions>
     ├── ⚫️ <zsh> $ chsh -s /bin/zsh
-    ├── ⚫️ <zsh-syntax-highlighting> # sudo apt install stow zsh zsh-autosuggestions zsh-syntax-highlighting -y
+    ├── ⚫️ <zsh-syntax-highlighting>
     │   #  sudo apt install stow zsh zsh-autosuggestions zsh-syntax-highlighting -y
     │
     ├── ⚫️ <fzf>
@@ -76,9 +86,8 @@ https://github.com/mrtrunq/Unix.git
     ├── ⚫️ <picom>
     ├── ⚫️ <xshkd>
     ├── ⚫️ <xdotool>
-    ├── ⚫️ <fonts-noto-color-emoji>
     └── ⚫️ <github_ly> ⚫️ <web_zig> ⚫️ <libpam0g-dev> ⚫️ <libxcb-xkb-dev>
-        #  sudo apt feh scrot picom sxhkd xdotool fonts-noto-color-emoji libpam0g-dev libxcb-xkb-dev -y
+        #  sudo apt feh scrot picom sxhkd xdotool libpam0g-dev libxcb-xkb-dev -y
         
     Patches : suckless.org
     │
