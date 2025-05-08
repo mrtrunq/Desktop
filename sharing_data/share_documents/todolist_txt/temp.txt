@@ -1,0 +1,39 @@
+1, Framework nó là tinh hoa của cả cộng đồng:
+Dependency Injection
+Module Loader
+Routing engine
+Middlewares
+Virtual DOM / SSR / hydration
+Build tools, bundlers, caching, hot reload...
+(Mấy cái này ông chưa phải động vào nhưng nó là thứ mà hơn trăm nghìn người dựng lên cái framework đấy).
+- Không cần phải tự code lại, nhưng cần hiểu mấy cái này để biết dùng(đấy là lí do AI chưa thay thế được con người)
+
+2, OS:
+- Hệ điều hành nào cũng thế, linux và macos dùng gần như giống nhau (nên đó là lí do ngta chuộng macos cho dev hơn win). Nhưng khi làm .NET, game,... thì win lợi thế hơn
+(cái này không quan trọng, bỏ qua cũng được, vọc vạch cho vui thì được chứ nó cũng chẳng giúp được gì).
+
+3, Học overview:
+- Ông học tổng quát tất cả mọi thứ nhưng ông quên không học cách dùng nó, đấy là lí do tại sao ông tự cho mình là thợ code, học tổng quan không sai, sai là dừng ở tổng quan.)
+- Nguy cơ biết hết mà không giỏi gì.
+
+4, Xu hướng do it urself
+- Cách này không sai, sai ở chỗ nó chỉ nên áp dụng cho giai đoạn khởi đầu, còn đến giai đoạn mọi thứ đều ổn thì cần dẹp tư duy này, code ít hơn, học chuyên sâu 1 ngách hơn.
+
+5, Cái này cực kì đáng báo động-cách giao tiếp với đội nhóm
+- Ông thường có xu hướng nghĩ không kĩ mà đã nói, dẫn đến việc thương tạo cho người khác cảm giác khá khó chịu khi làm việc chung, cần sửa gấp cái này nếu muốn tiến bộ xa.
+
+Bỏ tư duy thợ code, ngay bây giờ, học tối ưu sâu nhiều hơn là code, code có thể phang cho AI viết func nhưng tư duy thì không AI nào có thể giúp được, nó sẽ là thứ khiến ông qua được junior và tiến đến mid level
+
+còn học OS thì không phải học cài hay setup nó, mà học build ra nó dựa trên nền tảng(build OS mini kiểu [xv6] hoặc Linux Kernel lab) thì nó mới đem lại giá trị
+
+
+Làm theo task.
+
+Không cần hiểu quá sâu về kiến trúc hệ thống.(cái tôi nói mà bro kh nghe đấy)
+Gặp bug thì fix, không fix được thì hỏi.
+Ưu tiên làm nhanh, chạy được, ít trách nhiệm với hệ thống lâu dài.
+Thường bị quản lý hoặc bị senior điều khiển, cần phân task cụ thể.
+
+Hình dung như này:
+Thợ code giống như người nấu mì gói theo công thức.
+Kĩ sư phần mềm giống như người thiết kế và vận hành cả nhà hàng, biết nấu, nhưng còn biết chọn nguyên liệu, tổ chức bếp, lên menu, quản lý nhân sự.

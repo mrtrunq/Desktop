@@ -33,7 +33,8 @@
 	├── % git branch <new_branch>
 	├── % git log --oneline --graph
 	├── % git checkout <commit_hash>
-    └── % git checkout -b <new_branch>
+    ├── % git checkout -b <new_branch>
+	└── % git branch -m <old_branch> <new_branch>
 ··························
 ⚫️ <Remote>
 	│

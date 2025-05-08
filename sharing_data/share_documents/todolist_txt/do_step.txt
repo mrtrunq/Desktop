@@ -1,8 +1,8 @@
 🟩 [Step By Step]
 
 ⚪️ [To Do List]
-	vps backup to github
 	va not keo vao tuong
+	25/5 topup 10k for viettel & vina
 	price list > search gr fb > make photos list > up photo group > make video up ytb
 ------------------------------
 ⚪️ [Step]
@@ -11,13 +11,14 @@
 ······························
 ⚫️ <Schedule>
     Focus    : Figma > Apache > Jenkins
-	Learn    : C > C++ > DSA > Java > C# > Python
+	Learn    : C++ > DSA > Java > C# > Python
 ------------------------------
 ⚪️ [Time]
     │
-    ├── (21) lh  5   : 2025-04-21 08:40 PM
-    ├── (4)  ĐD Bang : 2005-05-02 11:45 AM
-    └── VPS          : 2025-05-02 11:45 AM
+    ├── (6) lh  6   : 2025-05-19 02:15 PM
+    ├── (4) ĐD Bang : 2005-05-19
+    ├── (2) SIM     : 2005-05-25
+    └── VPS         : 2025-06-05 08:02 PM
 ------------------------------
 ⚪️ [Disk]
 ⚫️ <Lexar NM610 250GB>

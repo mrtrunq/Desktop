@@ -1,7 +1,5 @@
 🟩 [MySQL 8.0.41]
 
-mycli		// brew query
-mysql		// query
 mysqldump	// backup
 mysqladmin  // manager
 mysqlimport // csv
@@ -14,6 +12,11 @@ mysqlimport // csv
 	% mysql.server stop
 	% mysql.server restart
 	% mysql.server status
+······························
+⚫️ <I/O>
+	% mysql -u root -p < "file.sql"
+	% mysql -u root -p "database" < "file.sql"
+	% mysqldump -u user -p "database" > "file.sql"
 ······························
 ⚫️ <Users>
     │

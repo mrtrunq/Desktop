@@ -65,6 +65,7 @@ automatically-unhide-macos-hidden-apps = false
     outer.bottom =     16
     outer.top =        16
     outer.right =      240
+# tr_end
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -214,7 +215,6 @@ automatically-unhide-macos-hidden-apps = false
     shift-down = ['volume set 0', 'mode main']
 
 # trung | % osascript -e 'id of app "Finder"'
-
 [[on-window-detected]]
 	if.app-id = 'com.apple.finder'
 	run = 'move-node-to-workspace F'
@@ -256,11 +256,14 @@ automatically-unhide-macos-hidden-apps = false
 	run = 'move-node-to-workspace A'
 
 [[on-window-detected]]
+	if.app-id = 'com.apple.Preview'
+	run = 'move-node-to-workspace P'
+
+[[on-window-detected]]
 	if.app-id = 'com.apple.systempreferences'
 	run = 'move-node-to-workspace S'
-
 
 [[on-window-detected]]
 	if.app-id = 'com.apple.Safari'
 	run = 'move-node-to-workspace B'
-
+# tr_end
