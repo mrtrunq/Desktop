@@ -53,15 +53,18 @@
 ⚫️ <config.h>
 
     ⚫️ <dmenu-alpha>
-    static const unsigned int alpha = 0x80;
+    static const unsigned int alpha = 0xd9;
 
-    "JetbrainsMono NF:size=11"
+    "SFNS:size=14"
 
     [SchemeNorm] = { "#ffffff", "#000000" },
     [SchemeSel] = { "#ffffff", "#005577" },
     [SchemeOut] = { "#000000", "#00ffff" },
 
     static unsigned int lines      = 4;
+
+    ⚫️ <dmenu-border>
+	static unsigned int border_width = 1;
 ------------------------------
 ⚪️ [slstatus]
 ⚫️ <config.h>

@@ -51,7 +51,6 @@
 # ------------------------------
 # alias
 	alias nvi='nvim'
-	alias lbat='batcat'
 	alias ll='tree -L 1 -a'
 	alias grep='grep --color=auto -i'
 	alias fzfhome='vi $(find ~ -type f | fzf)'

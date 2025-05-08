@@ -22,15 +22,15 @@ vnoremap j gjzz
 nnoremap k gkzz
 vnoremap k gkzz
 
-nnoremap J 5gjzz
-vnoremap J 5gjzz
-nnoremap K 5gkzz
-vnoremap K 5gkzz
+nnoremap J 4gjzz
+vnoremap J 4gjzz
+nnoremap K 4gkzz
+vnoremap K 4gkzz
 
-nnoremap H 5h
-vnoremap H 5h
-nnoremap L 5l
-vnoremap L 5l
+nnoremap H 4h
+vnoremap H 4h
+nnoremap L 4l
+vnoremap L 4l
 
 nnoremap X d^i
 nnoremap G Gzz
