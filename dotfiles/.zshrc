@@ -1,10 +1,6 @@
 # boot
-	export PATH=$PATH:/usr/bin
 	export HOMEBREW_NO_AUTO_UPDATE=1
 	export PATH=$PATH:/opt/nvim-linux-x86_64/bin
-	export PATH=$PATH:/opt/homebrew/Cellar/llvm/20.1.3/bin
-	export PATH=$PATH:/opt/homebrew/Cellar/bat/0.25.0_1/bin
-	export PATH=$PATH:/opt/homebrew/Cellar/mysql@8.0/8.0.42/bin
 # ······························
 	if [ -z "$TMUX" ]; then
 		if tmux ls &>/dev/null; then
