@@ -7,8 +7,6 @@
     static const unsigned int gappoh    = 16;
     static const unsigned int gappov    = 240;
    
-    ⚫️ <NVIDIA Driver>
-    ⚫️ <fonts-noto-color-emoji>
     static const char *fonts[] = {
 		"SFNS:size=13",
         "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true"
@@ -33,10 +31,10 @@
     static const char *dmenucmd[] = { "dmenu_run", NULL };
 	static const char *termcmd[]  = { "wezterm", NULL };
 
-    { ControlMask,                  XK_space,  spawn,          {.v = dmenucmd } },
-    { ControlMask,                  XK_Tab,    view,           {0} },
-    { ControlMask,                  XK_q,      killclient,     {0} },
-
+    { MODKEY,                       XK_space,  spawn,          {.v = dmenucmd } },
+    { Mod1Mask,                     XK_Tab,    view,           {0} },
+    { MODKEY,                       XK_q,      killclient,     {0} },
+ /* { MODKEY,                       XK_space,  setlayout,      {0} }, */
 	TAGKEYS(                        XK_f,                      0)
 	TAGKEYS(                        XK_w,                      1)
 	TAGKEYS(                        XK_c,                      2)

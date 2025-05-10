@@ -1,7 +1,7 @@
 alt+F4
     systemctl suspend
 
-super+shift+s
+ctrl+shift+s
     scrot -s ~/Downloads/screenshot-$(date +%Y%m%d-%H%M%S).jpg &
 
 XF86AudioRaiseVolume
